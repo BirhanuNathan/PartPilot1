@@ -1,0 +1,3779 @@
+[
+  {
+    "id": "P0001",
+    "partNumber": "HB-M6X1-12-88Z",
+    "name": "Hex head bolt M6x1 x 12 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 12,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 12060,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-12-88Z"
+  },
+  {
+    "id": "P0002",
+    "partNumber": "HB-M6X1-16-88Z",
+    "name": "Hex head bolt M6x1 x 16 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 16,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 12060,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-16-88Z"
+  },
+  {
+    "id": "P0003",
+    "partNumber": "HB-M6X1-20-88Z",
+    "name": "Hex head bolt M6x1 x 20 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 20,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 12060,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-20-88Z"
+  },
+  {
+    "id": "P0004",
+    "partNumber": "HB-M6X1-25-88Z",
+    "name": "Hex head bolt M6x1 x 25 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 25,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 12060,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-25-88Z"
+  },
+  {
+    "id": "P0005",
+    "partNumber": "HB-M6X1-30-88Z",
+    "name": "Hex head bolt M6x1 x 30 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 30,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 12060,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-30-88Z"
+  },
+  {
+    "id": "P0006",
+    "partNumber": "HB-M6X1-40-88Z",
+    "name": "Hex head bolt M6x1 x 40 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 40,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 12060,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-40-88Z"
+  },
+  {
+    "id": "P0007",
+    "partNumber": "HB-M6X1-12-A2",
+    "name": "Hex head bolt M6x1 x 12 mm, Stainless A2-70",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Stainless A2-70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 12,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 9045,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-12-A2"
+  },
+  {
+    "id": "P0008",
+    "partNumber": "HB-M6X1-16-A2",
+    "name": "Hex head bolt M6x1 x 16 mm, Stainless A2-70",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Stainless A2-70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 16,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 9045,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-16-A2"
+  },
+  {
+    "id": "P0009",
+    "partNumber": "HB-M6X1-20-A2",
+    "name": "Hex head bolt M6x1 x 20 mm, Stainless A2-70",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Stainless A2-70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 20,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 9045,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-20-A2"
+  },
+  {
+    "id": "P0010",
+    "partNumber": "HB-M6X1-25-A2",
+    "name": "Hex head bolt M6x1 x 25 mm, Stainless A2-70",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Stainless A2-70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 25,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 9045,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-25-A2"
+  },
+  {
+    "id": "P0011",
+    "partNumber": "HB-M6X1-30-A2",
+    "name": "Hex head bolt M6x1 x 30 mm, Stainless A2-70",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Stainless A2-70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 30,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 9045,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-30-A2"
+  },
+  {
+    "id": "P0012",
+    "partNumber": "HB-M6X1-40-A2",
+    "name": "Hex head bolt M6x1 x 40 mm, Stainless A2-70",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Stainless A2-70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 40,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 9045,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-40-A2"
+  },
+  {
+    "id": "P0013",
+    "partNumber": "HB-M6X1-16-AL",
+    "name": "Hex head bolt M6x1 x 16 mm, Aluminum 7075-T6",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Aluminum 7075-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 16,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 4824,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-16-AL"
+  },
+  {
+    "id": "P0014",
+    "partNumber": "HB-M6X1-20-AL",
+    "name": "Hex head bolt M6x1 x 20 mm, Aluminum 7075-T6",
+    "category": "fastener",
+    "standard": "ISO 4017",
+    "material": "Aluminum 7075-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 20,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 4824,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "coarse thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X1-20-AL"
+  },
+  {
+    "id": "P0015",
+    "partNumber": "HB-M6X075-16-88Z",
+    "name": "Hex head bolt M6x0.75 fine x 16 mm, Steel 8.8",
+    "category": "fastener",
+    "standard": "ISO 8676",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x0.75",
+      "nominalDiameterMm": 6,
+      "pitchMm": 0.75,
+      "lengthMm": 16,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 13200,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "fine thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X075-16-88Z"
+  },
+  {
+    "id": "P0016",
+    "partNumber": "HB-M6X075-20-88Z",
+    "name": "Hex head bolt M6x0.75 fine x 20 mm, Steel 8.8",
+    "category": "fastener",
+    "standard": "ISO 8676",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x0.75",
+      "nominalDiameterMm": 6,
+      "pitchMm": 0.75,
+      "lengthMm": 20,
+      "headAcrossFlatsMm": 10,
+      "headHeightMm": 4
+    },
+    "loadRatingN": 13200,
+    "tags": [
+      "hex bolt",
+      "bolt",
+      "metric",
+      "fine thread",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HB-M6X075-20-88Z"
+  },
+  {
+    "id": "P0017",
+    "partNumber": "SHCS-M3X0.5-6-88Z",
+    "name": "Socket head cap screw M3x0.5 x 6 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 6,
+      "headDiameterMm": 5.5
+    },
+    "loadRatingN": 3018,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M3X0.5-6-88Z"
+  },
+  {
+    "id": "P0018",
+    "partNumber": "SHCS-M3X0.5-8-88Z",
+    "name": "Socket head cap screw M3x0.5 x 8 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 8,
+      "headDiameterMm": 5.5
+    },
+    "loadRatingN": 3018,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M3X0.5-8-88Z"
+  },
+  {
+    "id": "P0019",
+    "partNumber": "SHCS-M3X0.5-8-A2",
+    "name": "Socket head cap screw M3x0.5 x 8 mm, Stainless A2-70",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Stainless A2-70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 8,
+      "headDiameterMm": 5.5
+    },
+    "loadRatingN": 2264,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M3X0.5-8-A2"
+  },
+  {
+    "id": "P0020",
+    "partNumber": "SHCS-M3X0.5-10-88Z",
+    "name": "Socket head cap screw M3x0.5 x 10 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 10,
+      "headDiameterMm": 5.5
+    },
+    "loadRatingN": 3018,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M3X0.5-10-88Z"
+  },
+  {
+    "id": "P0021",
+    "partNumber": "SHCS-M3X0.5-10-A2",
+    "name": "Socket head cap screw M3x0.5 x 10 mm, Stainless A2-70",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Stainless A2-70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 10,
+      "headDiameterMm": 5.5
+    },
+    "loadRatingN": 2264,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M3X0.5-10-A2"
+  },
+  {
+    "id": "P0022",
+    "partNumber": "SHCS-M3X0.5-12-88Z",
+    "name": "Socket head cap screw M3x0.5 x 12 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 12,
+      "headDiameterMm": 5.5
+    },
+    "loadRatingN": 3018,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M3X0.5-12-88Z"
+  },
+  {
+    "id": "P0023",
+    "partNumber": "SHCS-M3X0.5-12-A2",
+    "name": "Socket head cap screw M3x0.5 x 12 mm, Stainless A2-70",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Stainless A2-70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 12,
+      "headDiameterMm": 5.5
+    },
+    "loadRatingN": 2264,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M3X0.5-12-A2"
+  },
+  {
+    "id": "P0024",
+    "partNumber": "SHCS-M3X0.5-16-88Z",
+    "name": "Socket head cap screw M3x0.5 x 16 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 16,
+      "headDiameterMm": 5.5
+    },
+    "loadRatingN": 3018,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M3X0.5-16-88Z"
+  },
+  {
+    "id": "P0025",
+    "partNumber": "SHCS-M3X0.5-20-88Z",
+    "name": "Socket head cap screw M3x0.5 x 20 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 20,
+      "headDiameterMm": 5.5
+    },
+    "loadRatingN": 3018,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M3X0.5-20-88Z"
+  },
+  {
+    "id": "P0026",
+    "partNumber": "SHCS-M4X0.7-10-88Z",
+    "name": "Socket head cap screw M4x0.7 x 10 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.7",
+      "nominalDiameterMm": 4,
+      "pitchMm": 0.7,
+      "lengthMm": 10,
+      "headDiameterMm": 7
+    },
+    "loadRatingN": 5268,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M4X0.7-10-88Z"
+  },
+  {
+    "id": "P0027",
+    "partNumber": "SHCS-M4X0.7-16-88Z",
+    "name": "Socket head cap screw M4x0.7 x 16 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.7",
+      "nominalDiameterMm": 4,
+      "pitchMm": 0.7,
+      "lengthMm": 16,
+      "headDiameterMm": 7
+    },
+    "loadRatingN": 5268,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M4X0.7-16-88Z"
+  },
+  {
+    "id": "P0028",
+    "partNumber": "SHCS-M5X0.8-10-88Z",
+    "name": "Socket head cap screw M5x0.8 x 10 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M5x0.8",
+      "nominalDiameterMm": 5,
+      "pitchMm": 0.8,
+      "lengthMm": 10,
+      "headDiameterMm": 8
+    },
+    "loadRatingN": 8520,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M5"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M5X0.8-10-88Z"
+  },
+  {
+    "id": "P0029",
+    "partNumber": "SHCS-M5X0.8-16-88Z",
+    "name": "Socket head cap screw M5x0.8 x 16 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M5x0.8",
+      "nominalDiameterMm": 5,
+      "pitchMm": 0.8,
+      "lengthMm": 16,
+      "headDiameterMm": 8
+    },
+    "loadRatingN": 8520,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M5"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M5X0.8-16-88Z"
+  },
+  {
+    "id": "P0030",
+    "partNumber": "SHCS-M5X0.8-20-88Z",
+    "name": "Socket head cap screw M5x0.8 x 20 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M5x0.8",
+      "nominalDiameterMm": 5,
+      "pitchMm": 0.8,
+      "lengthMm": 20,
+      "headDiameterMm": 8
+    },
+    "loadRatingN": 8520,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M5"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M5X0.8-20-88Z"
+  },
+  {
+    "id": "P0031",
+    "partNumber": "SHCS-M8X1.25-20-88Z",
+    "name": "Socket head cap screw M8x1.25 x 20 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M8x1.25",
+      "nominalDiameterMm": 8,
+      "pitchMm": 1.25,
+      "lengthMm": 20,
+      "headDiameterMm": 12.5
+    },
+    "loadRatingN": 21960,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M8"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M8X1.25-20-88Z"
+  },
+  {
+    "id": "P0032",
+    "partNumber": "SHCS-M8X1.25-30-88Z",
+    "name": "Socket head cap screw M8x1.25 x 30 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M8x1.25",
+      "nominalDiameterMm": 8,
+      "pitchMm": 1.25,
+      "lengthMm": 30,
+      "headDiameterMm": 12.5
+    },
+    "loadRatingN": 21960,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "coarse thread",
+      "M8"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M8X1.25-30-88Z"
+  },
+  {
+    "id": "P0033",
+    "partNumber": "SHCS-M6X1-16-NY",
+    "name": "Socket head cap screw M6x1 x 16 mm, Nylon PA66",
+    "category": "fastener",
+    "standard": "DIN 912",
+    "material": "Nylon PA66",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "lengthMm": 16,
+      "headDiameterMm": 10
+    },
+    "loadRatingN": 1005,
+    "tags": [
+      "socket head cap screw",
+      "nylon",
+      "insulating",
+      "metric",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M6X1-16-NY"
+  },
+  {
+    "id": "P0034",
+    "partNumber": "SHCS-14-20-0P5IN-AS",
+    "name": "Socket head cap screw 1/4-20 UNC x 0.5 in, Alloy steel black oxide",
+    "category": "fastener",
+    "standard": "ANSI B18.3",
+    "material": "Alloy steel black oxide",
+    "unitSystem": "imperial",
+    "dimensions": {
+      "thread": "1/4-20 UNC",
+      "nominalDiameterMm": 6.35,
+      "lengthMm": 12.7,
+      "lengthIn": 0.5
+    },
+    "loadRatingN": 17015,
+    "tags": [
+      "socket head cap screw",
+      "imperial",
+      "inch",
+      "1/4-20"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-14-20-0P5IN-AS"
+  },
+  {
+    "id": "P0035",
+    "partNumber": "SHCS-14-20-0P75IN-AS",
+    "name": "Socket head cap screw 1/4-20 UNC x 0.75 in, Alloy steel black oxide",
+    "category": "fastener",
+    "standard": "ANSI B18.3",
+    "material": "Alloy steel black oxide",
+    "unitSystem": "imperial",
+    "dimensions": {
+      "thread": "1/4-20 UNC",
+      "nominalDiameterMm": 6.35,
+      "lengthMm": 19,
+      "lengthIn": 0.75
+    },
+    "loadRatingN": 17015,
+    "tags": [
+      "socket head cap screw",
+      "imperial",
+      "inch",
+      "1/4-20"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-14-20-0P75IN-AS"
+  },
+  {
+    "id": "P0036",
+    "partNumber": "SHCS-14-20-1IN-AS",
+    "name": "Socket head cap screw 1/4-20 UNC x 1 in, Alloy steel black oxide",
+    "category": "fastener",
+    "standard": "ANSI B18.3",
+    "material": "Alloy steel black oxide",
+    "unitSystem": "imperial",
+    "dimensions": {
+      "thread": "1/4-20 UNC",
+      "nominalDiameterMm": 6.35,
+      "lengthMm": 25.4,
+      "lengthIn": 1
+    },
+    "loadRatingN": 17015,
+    "tags": [
+      "socket head cap screw",
+      "imperial",
+      "inch",
+      "1/4-20"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-14-20-1IN-AS"
+  },
+  {
+    "id": "P0037",
+    "partNumber": "SHCS-10-32-0P375IN-AS",
+    "name": "Socket head cap screw 10-32 UNF x 0.375 in, Alloy steel black oxide",
+    "category": "fastener",
+    "standard": "ANSI B18.3",
+    "material": "Alloy steel black oxide",
+    "unitSystem": "imperial",
+    "dimensions": {
+      "thread": "10-32 UNF",
+      "nominalDiameterMm": 4.83,
+      "lengthMm": 9.5,
+      "lengthIn": 0.375
+    },
+    "loadRatingN": 10707,
+    "tags": [
+      "socket head cap screw",
+      "imperial",
+      "inch",
+      "10-32"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-10-32-0P375IN-AS"
+  },
+  {
+    "id": "P0038",
+    "partNumber": "SHCS-10-32-0P5IN-AS",
+    "name": "Socket head cap screw 10-32 UNF x 0.5 in, Alloy steel black oxide",
+    "category": "fastener",
+    "standard": "ANSI B18.3",
+    "material": "Alloy steel black oxide",
+    "unitSystem": "imperial",
+    "dimensions": {
+      "thread": "10-32 UNF",
+      "nominalDiameterMm": 4.83,
+      "lengthMm": 12.7,
+      "lengthIn": 0.5
+    },
+    "loadRatingN": 10707,
+    "tags": [
+      "socket head cap screw",
+      "imperial",
+      "inch",
+      "10-32"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-10-32-0P5IN-AS"
+  },
+  {
+    "id": "P0039",
+    "partNumber": "SHCS-10-32-0P75IN-AS",
+    "name": "Socket head cap screw 10-32 UNF x 0.75 in, Alloy steel black oxide",
+    "category": "fastener",
+    "standard": "ANSI B18.3",
+    "material": "Alloy steel black oxide",
+    "unitSystem": "imperial",
+    "dimensions": {
+      "thread": "10-32 UNF",
+      "nominalDiameterMm": 4.83,
+      "lengthMm": 19,
+      "lengthIn": 0.75
+    },
+    "loadRatingN": 10707,
+    "tags": [
+      "socket head cap screw",
+      "imperial",
+      "inch",
+      "10-32"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-10-32-0P75IN-AS"
+  },
+  {
+    "id": "P0040",
+    "partNumber": "HN-M3X0.5-88Z",
+    "name": "Hex nut M3x0.5, Steel class 8 zinc plated",
+    "category": "nut",
+    "standard": "ISO 4032",
+    "material": "Steel 8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "acrossFlatsMm": 5.5,
+      "thicknessMm": 2.4
+    },
+    "tags": [
+      "hex nut",
+      "nut",
+      "metric",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HN-M3X0.5-88Z"
+  },
+  {
+    "id": "P0041",
+    "partNumber": "HN-M4X0.7-88Z",
+    "name": "Hex nut M4x0.7, Steel class 8 zinc plated",
+    "category": "nut",
+    "standard": "ISO 4032",
+    "material": "Steel 8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.7",
+      "nominalDiameterMm": 4,
+      "pitchMm": 0.7,
+      "acrossFlatsMm": 7,
+      "thicknessMm": 3.2
+    },
+    "tags": [
+      "hex nut",
+      "nut",
+      "metric",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HN-M4X0.7-88Z"
+  },
+  {
+    "id": "P0042",
+    "partNumber": "HN-M5X0.8-88Z",
+    "name": "Hex nut M5x0.8, Steel class 8 zinc plated",
+    "category": "nut",
+    "standard": "ISO 4032",
+    "material": "Steel 8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M5x0.8",
+      "nominalDiameterMm": 5,
+      "pitchMm": 0.8,
+      "acrossFlatsMm": 8,
+      "thicknessMm": 4.7
+    },
+    "tags": [
+      "hex nut",
+      "nut",
+      "metric",
+      "M5"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HN-M5X0.8-88Z"
+  },
+  {
+    "id": "P0043",
+    "partNumber": "HN-M6X1-88Z",
+    "name": "Hex nut M6x1, Steel class 8 zinc plated",
+    "category": "nut",
+    "standard": "ISO 4032",
+    "material": "Steel 8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "nominalDiameterMm": 6,
+      "pitchMm": 1,
+      "acrossFlatsMm": 10,
+      "thicknessMm": 5.2
+    },
+    "tags": [
+      "hex nut",
+      "nut",
+      "metric",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HN-M6X1-88Z"
+  },
+  {
+    "id": "P0044",
+    "partNumber": "HN-M8X1.25-88Z",
+    "name": "Hex nut M8x1.25, Steel class 8 zinc plated",
+    "category": "nut",
+    "standard": "ISO 4032",
+    "material": "Steel 8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M8x1.25",
+      "nominalDiameterMm": 8,
+      "pitchMm": 1.25,
+      "acrossFlatsMm": 13,
+      "thicknessMm": 6.8
+    },
+    "tags": [
+      "hex nut",
+      "nut",
+      "metric",
+      "M8"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/HN-M8X1.25-88Z"
+  },
+  {
+    "id": "P0045",
+    "partNumber": "FW-M3-A2",
+    "name": "Flat washer M3, Stainless A2",
+    "category": "washer",
+    "standard": "DIN 125",
+    "material": "Stainless A2",
+    "unitSystem": "metric",
+    "dimensions": {
+      "innerDiameterMm": 3.2,
+      "outerDiameterMm": 7,
+      "thicknessMm": 0.5,
+      "fitsThread": "M3"
+    },
+    "tags": [
+      "flat washer",
+      "washer",
+      "metric",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FW-M3-A2"
+  },
+  {
+    "id": "P0046",
+    "partNumber": "FW-M4-A2",
+    "name": "Flat washer M4, Stainless A2",
+    "category": "washer",
+    "standard": "DIN 125",
+    "material": "Stainless A2",
+    "unitSystem": "metric",
+    "dimensions": {
+      "innerDiameterMm": 4.3,
+      "outerDiameterMm": 9,
+      "thicknessMm": 0.8,
+      "fitsThread": "M4"
+    },
+    "tags": [
+      "flat washer",
+      "washer",
+      "metric",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FW-M4-A2"
+  },
+  {
+    "id": "P0047",
+    "partNumber": "FW-M5-A2",
+    "name": "Flat washer M5, Stainless A2",
+    "category": "washer",
+    "standard": "DIN 125",
+    "material": "Stainless A2",
+    "unitSystem": "metric",
+    "dimensions": {
+      "innerDiameterMm": 5.3,
+      "outerDiameterMm": 10,
+      "thicknessMm": 1,
+      "fitsThread": "M5"
+    },
+    "tags": [
+      "flat washer",
+      "washer",
+      "metric",
+      "M5"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FW-M5-A2"
+  },
+  {
+    "id": "P0048",
+    "partNumber": "FW-M6-A2",
+    "name": "Flat washer M6, Stainless A2",
+    "category": "washer",
+    "standard": "DIN 125",
+    "material": "Stainless A2",
+    "unitSystem": "metric",
+    "dimensions": {
+      "innerDiameterMm": 6.4,
+      "outerDiameterMm": 12,
+      "thicknessMm": 1.6,
+      "fitsThread": "M6"
+    },
+    "tags": [
+      "flat washer",
+      "washer",
+      "metric",
+      "M6"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FW-M6-A2"
+  },
+  {
+    "id": "P0049",
+    "partNumber": "FW-M8-A2",
+    "name": "Flat washer M8, Stainless A2",
+    "category": "washer",
+    "standard": "DIN 125",
+    "material": "Stainless A2",
+    "unitSystem": "metric",
+    "dimensions": {
+      "innerDiameterMm": 8.4,
+      "outerDiameterMm": 16,
+      "thicknessMm": 1.6,
+      "fitsThread": "M8"
+    },
+    "tags": [
+      "flat washer",
+      "washer",
+      "metric",
+      "M8"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FW-M8-A2"
+  },
+  {
+    "id": "P0050",
+    "partNumber": "BRG-625-2RS",
+    "name": "Deep groove ball bearing 625-2RS, 5x16x5 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 5,
+      "outerDiameterMm": 16,
+      "widthMm": 5,
+      "series": "625",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 1730,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "625",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-625-2RS"
+  },
+  {
+    "id": "P0051",
+    "partNumber": "BRG-626-2RS",
+    "name": "Deep groove ball bearing 626-2RS, 6x19x6 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 6,
+      "outerDiameterMm": 19,
+      "widthMm": 6,
+      "series": "626",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 2340,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "626",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-626-2RS"
+  },
+  {
+    "id": "P0052",
+    "partNumber": "BRG-688-2RS",
+    "name": "Deep groove ball bearing 688-2RS, 8x16x5 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8,
+      "outerDiameterMm": 16,
+      "widthMm": 5,
+      "series": "688",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 1430,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "688",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-688-2RS"
+  },
+  {
+    "id": "P0053",
+    "partNumber": "BRG-608-2RS",
+    "name": "Deep groove ball bearing 608-2RS, 8x22x7 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8,
+      "outerDiameterMm": 22,
+      "widthMm": 7,
+      "series": "608",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 3300,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "608",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-608-2RS"
+  },
+  {
+    "id": "P0054",
+    "partNumber": "BRG-608-ZZ",
+    "name": "Deep groove ball bearing 608-ZZ, 8x22x7 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8,
+      "outerDiameterMm": 22,
+      "widthMm": 7,
+      "series": "608",
+      "seal": "metal shielded"
+    },
+    "loadRatingN": 3300,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "608",
+      "ZZ"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-608-ZZ"
+  },
+  {
+    "id": "P0055",
+    "partNumber": "BRG-6800-2RS",
+    "name": "Deep groove ball bearing 6800-2RS, 10x19x5 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 10,
+      "outerDiameterMm": 19,
+      "widthMm": 5,
+      "series": "6800",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 1720,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "6800",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-6800-2RS"
+  },
+  {
+    "id": "P0056",
+    "partNumber": "BRG-6000-2RS",
+    "name": "Deep groove ball bearing 6000-2RS, 10x26x8 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 10,
+      "outerDiameterMm": 26,
+      "widthMm": 8,
+      "series": "6000",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 4550,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "6000",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-6000-2RS"
+  },
+  {
+    "id": "P0057",
+    "partNumber": "BRG-6200-2RS",
+    "name": "Deep groove ball bearing 6200-2RS, 10x30x9 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 10,
+      "outerDiameterMm": 30,
+      "widthMm": 9,
+      "series": "6200",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 5100,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "6200",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-6200-2RS"
+  },
+  {
+    "id": "P0058",
+    "partNumber": "BRG-6001-2RS",
+    "name": "Deep groove ball bearing 6001-2RS, 12x28x8 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 12,
+      "outerDiameterMm": 28,
+      "widthMm": 8,
+      "series": "6001",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 5100,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "6001",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-6001-2RS"
+  },
+  {
+    "id": "P0059",
+    "partNumber": "BRG-6201-2RS",
+    "name": "Deep groove ball bearing 6201-2RS, 12x32x10 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 12,
+      "outerDiameterMm": 32,
+      "widthMm": 10,
+      "series": "6201",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 6800,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "6201",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-6201-2RS"
+  },
+  {
+    "id": "P0060",
+    "partNumber": "BRG-6002-2RS",
+    "name": "Deep groove ball bearing 6002-2RS, 15x32x9 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 15,
+      "outerDiameterMm": 32,
+      "widthMm": 9,
+      "series": "6002",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 5600,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "6002",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-6002-2RS"
+  },
+  {
+    "id": "P0061",
+    "partNumber": "BRG-6202-2RS",
+    "name": "Deep groove ball bearing 6202-2RS, 15x35x11 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 15,
+      "outerDiameterMm": 35,
+      "widthMm": 11,
+      "series": "6202",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 7650,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "6202",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-6202-2RS"
+  },
+  {
+    "id": "P0062",
+    "partNumber": "BRG-6204-2RS",
+    "name": "Deep groove ball bearing 6204-2RS, 20x47x14 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 20,
+      "outerDiameterMm": 47,
+      "widthMm": 14,
+      "series": "6204",
+      "seal": "rubber sealed"
+    },
+    "loadRatingN": 12700,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "6204",
+      "2RS"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-6204-2RS"
+  },
+  {
+    "id": "P0063",
+    "partNumber": "BRG-6204-ZZ",
+    "name": "Deep groove ball bearing 6204-ZZ, 20x47x14 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 20,
+      "outerDiameterMm": 47,
+      "widthMm": 14,
+      "series": "6204",
+      "seal": "metal shielded"
+    },
+    "loadRatingN": 12700,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "6204",
+      "ZZ"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-6204-ZZ"
+  },
+  {
+    "id": "P0064",
+    "partNumber": "BRG-F608-2RS",
+    "name": "Flanged ball bearing F608-2RS, 8x22x7 mm, flange OD 25 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8,
+      "outerDiameterMm": 22,
+      "widthMm": 7,
+      "flangeDiameterMm": 25,
+      "flangeThicknessMm": 1.5,
+      "series": "F608"
+    },
+    "loadRatingN": 3300,
+    "tags": [
+      "ball bearing",
+      "flanged bearing",
+      "608"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-F608-2RS"
+  },
+  {
+    "id": "P0065",
+    "partNumber": "BRG-S608-2RS",
+    "name": "Stainless ball bearing S608-2RS, 8x22x7 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Stainless 440C",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8,
+      "outerDiameterMm": 22,
+      "widthMm": 7,
+      "series": "S608"
+    },
+    "loadRatingN": 2850,
+    "tags": [
+      "ball bearing",
+      "stainless",
+      "corrosion resistant",
+      "608"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-S608-2RS"
+  },
+  {
+    "id": "P0066",
+    "partNumber": "BRG-R8-2RS",
+    "name": "Inch ball bearing R8-2RS, 1/2 x 1-1/8 x 5/16 in",
+    "category": "bearing",
+    "standard": "ANSI/ABMA",
+    "material": "Chrome steel 52100",
+    "unitSystem": "imperial",
+    "dimensions": {
+      "boreMm": 12.7,
+      "outerDiameterMm": 28.575,
+      "widthMm": 7.938,
+      "boreIn": 0.5,
+      "series": "R8"
+    },
+    "loadRatingN": 5110,
+    "tags": [
+      "ball bearing",
+      "inch",
+      "imperial",
+      "R8"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-R8-2RS"
+  },
+  {
+    "id": "P0067",
+    "partNumber": "PB-KP08",
+    "name": "Pillow block bearing KP08, 8 mm bore, zinc alloy housing",
+    "category": "bearing",
+    "standard": "vendor",
+    "material": "Zinc alloy housing / chrome steel insert",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8,
+      "mountingHoleSpacingMm": 42,
+      "mountingHoleDiameterMm": 5,
+      "shaftHeightMm": 15
+    },
+    "loadRatingN": 2500,
+    "tags": [
+      "pillow block",
+      "mounted bearing",
+      "KP08",
+      "3D printer"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/PB-KP08"
+  },
+  {
+    "id": "P0068",
+    "partNumber": "PB-UCP204",
+    "name": "Pillow block bearing UCP204, 20 mm bore, cast iron housing",
+    "category": "bearing",
+    "standard": "ISO 3228",
+    "material": "Cast iron housing / chrome steel insert",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 20,
+      "mountingHoleSpacingMm": 96,
+      "mountingHoleDiameterMm": 13,
+      "shaftHeightMm": 33.3
+    },
+    "loadRatingN": 12800,
+    "tags": [
+      "pillow block",
+      "mounted bearing",
+      "UCP204",
+      "set screw lock"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/PB-UCP204"
+  },
+  {
+    "id": "P0069",
+    "partNumber": "SFT-5H6-100-CS",
+    "name": "Precision linear shaft Ø5 h6 x 100 mm, hardened chrome-plated steel",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Hardened steel Cf53 chrome plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 5,
+      "lengthMm": 100,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "linear shaft",
+      "rod",
+      "precision",
+      "5 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-5H6-100-CS"
+  },
+  {
+    "id": "P0070",
+    "partNumber": "SFT-5H6-200-CS",
+    "name": "Precision linear shaft Ø5 h6 x 200 mm, hardened chrome-plated steel",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Hardened steel Cf53 chrome plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 5,
+      "lengthMm": 200,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "linear shaft",
+      "rod",
+      "precision",
+      "5 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-5H6-200-CS"
+  },
+  {
+    "id": "P0071",
+    "partNumber": "SFT-8H6-100-CS",
+    "name": "Precision linear shaft Ø8 h6 x 100 mm, hardened chrome-plated steel",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Hardened steel Cf53 chrome plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 8,
+      "lengthMm": 100,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "linear shaft",
+      "rod",
+      "precision",
+      "8 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-8H6-100-CS"
+  },
+  {
+    "id": "P0072",
+    "partNumber": "SFT-8H6-200-CS",
+    "name": "Precision linear shaft Ø8 h6 x 200 mm, hardened chrome-plated steel",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Hardened steel Cf53 chrome plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 8,
+      "lengthMm": 200,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "linear shaft",
+      "rod",
+      "precision",
+      "8 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-8H6-200-CS"
+  },
+  {
+    "id": "P0073",
+    "partNumber": "SFT-8H6-300-CS",
+    "name": "Precision linear shaft Ø8 h6 x 300 mm, hardened chrome-plated steel",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Hardened steel Cf53 chrome plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 8,
+      "lengthMm": 300,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "linear shaft",
+      "rod",
+      "precision",
+      "8 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-8H6-300-CS"
+  },
+  {
+    "id": "P0074",
+    "partNumber": "SFT-10H6-100-CS",
+    "name": "Precision linear shaft Ø10 h6 x 100 mm, hardened chrome-plated steel",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Hardened steel Cf53 chrome plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 10,
+      "lengthMm": 100,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "linear shaft",
+      "rod",
+      "precision",
+      "10 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-10H6-100-CS"
+  },
+  {
+    "id": "P0075",
+    "partNumber": "SFT-10H6-200-CS",
+    "name": "Precision linear shaft Ø10 h6 x 200 mm, hardened chrome-plated steel",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Hardened steel Cf53 chrome plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 10,
+      "lengthMm": 200,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "linear shaft",
+      "rod",
+      "precision",
+      "10 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-10H6-200-CS"
+  },
+  {
+    "id": "P0076",
+    "partNumber": "SFT-12H6-100-CS",
+    "name": "Precision linear shaft Ø12 h6 x 100 mm, hardened chrome-plated steel",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Hardened steel Cf53 chrome plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 12,
+      "lengthMm": 100,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "linear shaft",
+      "rod",
+      "precision",
+      "12 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-12H6-100-CS"
+  },
+  {
+    "id": "P0077",
+    "partNumber": "SFT-12H6-200-CS",
+    "name": "Precision linear shaft Ø12 h6 x 200 mm, hardened chrome-plated steel",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Hardened steel Cf53 chrome plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 12,
+      "lengthMm": 200,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "linear shaft",
+      "rod",
+      "precision",
+      "12 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-12H6-200-CS"
+  },
+  {
+    "id": "P0078",
+    "partNumber": "SFT-8H6-200-SS",
+    "name": "Precision shaft Ø8 h6 x 200 mm, Stainless 440C",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Stainless 440C",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 8,
+      "lengthMm": 200,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "stainless",
+      "precision",
+      "8 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-8H6-200-SS"
+  },
+  {
+    "id": "P0079",
+    "partNumber": "SFT-0250IN-12IN-CS",
+    "name": "Precision shaft Ø0.25 in x 12 in, case hardened steel",
+    "category": "shaft",
+    "standard": "ANSI",
+    "material": "Case hardened 1060 steel",
+    "unitSystem": "imperial",
+    "dimensions": {
+      "diameterMm": 6.35,
+      "diameterIn": 0.25,
+      "lengthMm": 304.8,
+      "tolerance": "Class L"
+    },
+    "tags": [
+      "shaft",
+      "imperial",
+      "inch"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-0250IN-12IN-CS"
+  },
+  {
+    "id": "P0080",
+    "partNumber": "SFT-0500IN-12IN-CS",
+    "name": "Precision shaft Ø0.5 in x 12 in, case hardened steel",
+    "category": "shaft",
+    "standard": "ANSI",
+    "material": "Case hardened 1060 steel",
+    "unitSystem": "imperial",
+    "dimensions": {
+      "diameterMm": 12.7,
+      "diameterIn": 0.5,
+      "lengthMm": 304.8,
+      "tolerance": "Class L"
+    },
+    "tags": [
+      "shaft",
+      "imperial",
+      "inch"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-0500IN-12IN-CS"
+  },
+  {
+    "id": "P0081",
+    "partNumber": "SC-5-SS-STL",
+    "name": "Set screw shaft collar 5 mm bore, steel black oxide",
+    "category": "shaft collar",
+    "standard": "DIN 705",
+    "material": "Steel black oxide",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 5,
+      "outerDiameterMm": 10,
+      "widthMm": 6,
+      "setScrew": "M4"
+    },
+    "tags": [
+      "shaft collar",
+      "set screw collar",
+      "retaining",
+      "5 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SC-5-SS-STL"
+  },
+  {
+    "id": "P0082",
+    "partNumber": "SC-8-SS-STL",
+    "name": "Set screw shaft collar 8 mm bore, steel black oxide",
+    "category": "shaft collar",
+    "standard": "DIN 705",
+    "material": "Steel black oxide",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8,
+      "outerDiameterMm": 16,
+      "widthMm": 8,
+      "setScrew": "M4"
+    },
+    "tags": [
+      "shaft collar",
+      "set screw collar",
+      "retaining",
+      "8 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SC-8-SS-STL"
+  },
+  {
+    "id": "P0083",
+    "partNumber": "SC-8-CL-AL",
+    "name": "One-piece clamp shaft collar 8 mm bore, aluminum 6061",
+    "category": "shaft collar",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8,
+      "outerDiameterMm": 20,
+      "widthMm": 9,
+      "clampScrew": "M3"
+    },
+    "tags": [
+      "shaft collar",
+      "clamp collar",
+      "aluminum",
+      "8 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SC-8-CL-AL"
+  },
+  {
+    "id": "P0084",
+    "partNumber": "SC-10-SS-STL",
+    "name": "Set screw shaft collar 10 mm bore, steel black oxide",
+    "category": "shaft collar",
+    "standard": "DIN 705",
+    "material": "Steel black oxide",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 10,
+      "outerDiameterMm": 20,
+      "widthMm": 10,
+      "setScrew": "M6"
+    },
+    "tags": [
+      "shaft collar",
+      "set screw collar",
+      "retaining",
+      "10 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SC-10-SS-STL"
+  },
+  {
+    "id": "P0085",
+    "partNumber": "SC-10-CL-AL",
+    "name": "One-piece clamp shaft collar 10 mm bore, aluminum 6061",
+    "category": "shaft collar",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 10,
+      "outerDiameterMm": 24,
+      "widthMm": 11,
+      "clampScrew": "M3"
+    },
+    "tags": [
+      "shaft collar",
+      "clamp collar",
+      "aluminum",
+      "10 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SC-10-CL-AL"
+  },
+  {
+    "id": "P0086",
+    "partNumber": "SC-12-SS-STL",
+    "name": "Set screw shaft collar 12 mm bore, steel black oxide",
+    "category": "shaft collar",
+    "standard": "DIN 705",
+    "material": "Steel black oxide",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 12,
+      "outerDiameterMm": 22,
+      "widthMm": 12,
+      "setScrew": "M6"
+    },
+    "tags": [
+      "shaft collar",
+      "set screw collar",
+      "retaining",
+      "12 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SC-12-SS-STL"
+  },
+  {
+    "id": "P0087",
+    "partNumber": "SC-12-CL-AL",
+    "name": "One-piece clamp shaft collar 12 mm bore, aluminum 6061",
+    "category": "shaft collar",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 12,
+      "outerDiameterMm": 26,
+      "widthMm": 13,
+      "clampScrew": "M3"
+    },
+    "tags": [
+      "shaft collar",
+      "clamp collar",
+      "aluminum",
+      "12 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SC-12-CL-AL"
+  },
+  {
+    "id": "P0088",
+    "partNumber": "SC-15-SS-STL",
+    "name": "Set screw shaft collar 15 mm bore, steel black oxide",
+    "category": "shaft collar",
+    "standard": "DIN 705",
+    "material": "Steel black oxide",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 15,
+      "outerDiameterMm": 25,
+      "widthMm": 12,
+      "setScrew": "M6"
+    },
+    "tags": [
+      "shaft collar",
+      "set screw collar",
+      "retaining",
+      "15 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SC-15-SS-STL"
+  },
+  {
+    "id": "P0089",
+    "partNumber": "SC-20-SS-STL",
+    "name": "Set screw shaft collar 20 mm bore, steel black oxide",
+    "category": "shaft collar",
+    "standard": "DIN 705",
+    "material": "Steel black oxide",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 20,
+      "outerDiameterMm": 32,
+      "widthMm": 14,
+      "setScrew": "M6"
+    },
+    "tags": [
+      "shaft collar",
+      "set screw collar",
+      "retaining",
+      "20 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SC-20-SS-STL"
+  },
+  {
+    "id": "P0090",
+    "partNumber": "LB-20X20X2-AL",
+    "name": "L-bracket 20x20x2 mm, Aluminum 6061-T6, M3 clearance holes",
+    "category": "bracket",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "legLengthMm": 20,
+      "widthMm": 20,
+      "thicknessMm": 2,
+      "holeForThread": "M3",
+      "holeDiameterMm": 3.4,
+      "holeCount": 4
+    },
+    "loadRatingN": 200,
+    "tags": [
+      "L-bracket",
+      "angle bracket",
+      "corner bracket",
+      "mounting"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/LB-20X20X2-AL"
+  },
+  {
+    "id": "P0091",
+    "partNumber": "LB-30X30X3-AL",
+    "name": "L-bracket 30x30x3 mm, Aluminum 6061-T6, M4 clearance holes",
+    "category": "bracket",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "legLengthMm": 30,
+      "widthMm": 30,
+      "thicknessMm": 3,
+      "holeForThread": "M4",
+      "holeDiameterMm": 4.5,
+      "holeCount": 4
+    },
+    "loadRatingN": 450,
+    "tags": [
+      "L-bracket",
+      "angle bracket",
+      "corner bracket",
+      "mounting"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/LB-30X30X3-AL"
+  },
+  {
+    "id": "P0092",
+    "partNumber": "LB-40X40X4-STL",
+    "name": "L-bracket 40x40x4 mm, Steel zinc plated, M6 clearance holes",
+    "category": "bracket",
+    "standard": "vendor",
+    "material": "Steel zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "legLengthMm": 40,
+      "widthMm": 40,
+      "thicknessMm": 4,
+      "holeForThread": "M6",
+      "holeDiameterMm": 6.6,
+      "holeCount": 4
+    },
+    "loadRatingN": 1440,
+    "tags": [
+      "L-bracket",
+      "angle bracket",
+      "corner bracket",
+      "mounting"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/LB-40X40X4-STL"
+  },
+  {
+    "id": "P0093",
+    "partNumber": "LB-40X40X4-AL",
+    "name": "L-bracket 40x40x4 mm, Aluminum 6061-T6, M6 clearance holes",
+    "category": "bracket",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "legLengthMm": 40,
+      "widthMm": 40,
+      "thicknessMm": 4,
+      "holeForThread": "M6",
+      "holeDiameterMm": 6.6,
+      "holeCount": 4
+    },
+    "loadRatingN": 800,
+    "tags": [
+      "L-bracket",
+      "angle bracket",
+      "corner bracket",
+      "mounting"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/LB-40X40X4-AL"
+  },
+  {
+    "id": "P0094",
+    "partNumber": "LB-50X50X5-STL",
+    "name": "L-bracket 50x50x5 mm, Steel zinc plated, M6 clearance holes",
+    "category": "bracket",
+    "standard": "vendor",
+    "material": "Steel zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "legLengthMm": 50,
+      "widthMm": 50,
+      "thicknessMm": 5,
+      "holeForThread": "M6",
+      "holeDiameterMm": 6.6,
+      "holeCount": 4
+    },
+    "loadRatingN": 2250,
+    "tags": [
+      "L-bracket",
+      "angle bracket",
+      "corner bracket",
+      "mounting"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/LB-50X50X5-STL"
+  },
+  {
+    "id": "P0095",
+    "partNumber": "LB-50X50X5-AL",
+    "name": "L-bracket 50x50x5 mm, Aluminum 6061-T6, M6 clearance holes",
+    "category": "bracket",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "legLengthMm": 50,
+      "widthMm": 50,
+      "thicknessMm": 5,
+      "holeForThread": "M6",
+      "holeDiameterMm": 6.6,
+      "holeCount": 4
+    },
+    "loadRatingN": 1250,
+    "tags": [
+      "L-bracket",
+      "angle bracket",
+      "corner bracket",
+      "mounting"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/LB-50X50X5-AL"
+  },
+  {
+    "id": "P0096",
+    "partNumber": "MM-NEMA17-L-AL",
+    "name": "NEMA 17 stepper motor L-mount, aluminum 6061, 4 mm thick",
+    "category": "motor mount",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "motorFrame": "NEMA 17",
+      "boltPatternMm": 31,
+      "pilotDiameterMm": 22.5,
+      "holeForThread": "M3",
+      "thicknessMm": 4,
+      "baseSlotForThread": "M5"
+    },
+    "loadRatingN": 400,
+    "tags": [
+      "motor mount",
+      "NEMA 17",
+      "stepper",
+      "L-bracket"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/MM-NEMA17-L-AL"
+  },
+  {
+    "id": "P0097",
+    "partNumber": "MM-NEMA17-L-STL",
+    "name": "NEMA 17 stepper motor L-mount, steel 3 mm thick",
+    "category": "motor mount",
+    "standard": "vendor",
+    "material": "Steel zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "motorFrame": "NEMA 17",
+      "boltPatternMm": 31,
+      "pilotDiameterMm": 22.5,
+      "holeForThread": "M3",
+      "thicknessMm": 3,
+      "baseSlotForThread": "M4"
+    },
+    "loadRatingN": 600,
+    "tags": [
+      "motor mount",
+      "NEMA 17",
+      "stepper",
+      "L-bracket"
+    ],
+    "cadFormats": [
+      "STEP"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/MM-NEMA17-L-STL"
+  },
+  {
+    "id": "P0098",
+    "partNumber": "MM-NEMA23-L-STL",
+    "name": "NEMA 23 stepper motor L-mount, steel 5 mm thick",
+    "category": "motor mount",
+    "standard": "vendor",
+    "material": "Steel zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "motorFrame": "NEMA 23",
+      "boltPatternMm": 47.14,
+      "pilotDiameterMm": 38.1,
+      "holeForThread": "M5",
+      "thicknessMm": 5,
+      "baseSlotForThread": "M6"
+    },
+    "loadRatingN": 1500,
+    "tags": [
+      "motor mount",
+      "NEMA 23",
+      "stepper",
+      "L-bracket"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/MM-NEMA23-L-STL"
+  },
+  {
+    "id": "P0099",
+    "partNumber": "FB-8X10X8-BRZ",
+    "name": "Flanged sleeve bushing 8x10x8 mm, Sintered bronze SAE 841",
+    "category": "bushing",
+    "standard": "ISO 2795",
+    "material": "Sintered bronze SAE 841",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8,
+      "outerDiameterMm": 10,
+      "flangeDiameterMm": 14,
+      "lengthMm": 8
+    },
+    "tags": [
+      "flanged bushing",
+      "sleeve bearing",
+      "plain bearing",
+      "oilite"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FB-8X10X8-BRZ"
+  },
+  {
+    "id": "P0100",
+    "partNumber": "FB-8X12X10-BRZ",
+    "name": "Flanged sleeve bushing 8x12x10 mm, Sintered bronze SAE 841",
+    "category": "bushing",
+    "standard": "ISO 2795",
+    "material": "Sintered bronze SAE 841",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8,
+      "outerDiameterMm": 12,
+      "flangeDiameterMm": 16,
+      "lengthMm": 10
+    },
+    "tags": [
+      "flanged bushing",
+      "sleeve bearing",
+      "plain bearing",
+      "oilite"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FB-8X12X10-BRZ"
+  },
+  {
+    "id": "P0101",
+    "partNumber": "FB-10X12X10-BRZ",
+    "name": "Flanged sleeve bushing 10x12x10 mm, Sintered bronze SAE 841",
+    "category": "bushing",
+    "standard": "ISO 2795",
+    "material": "Sintered bronze SAE 841",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 10,
+      "outerDiameterMm": 12,
+      "flangeDiameterMm": 16,
+      "lengthMm": 10
+    },
+    "tags": [
+      "flanged bushing",
+      "sleeve bearing",
+      "plain bearing",
+      "oilite"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FB-10X12X10-BRZ"
+  },
+  {
+    "id": "P0102",
+    "partNumber": "FB-12X14X12-BRZ",
+    "name": "Flanged sleeve bushing 12x14x12 mm, Sintered bronze SAE 841",
+    "category": "bushing",
+    "standard": "ISO 2795",
+    "material": "Sintered bronze SAE 841",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 12,
+      "outerDiameterMm": 14,
+      "flangeDiameterMm": 18,
+      "lengthMm": 12
+    },
+    "tags": [
+      "flanged bushing",
+      "sleeve bearing",
+      "plain bearing",
+      "oilite"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FB-12X14X12-BRZ"
+  },
+  {
+    "id": "P0103",
+    "partNumber": "FB-8X10X10-POLY",
+    "name": "Flanged sleeve bushing 8x10x10 mm, iglidur G polymer",
+    "category": "bushing",
+    "standard": "vendor",
+    "material": "iglidur G polymer",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8,
+      "outerDiameterMm": 10,
+      "flangeDiameterMm": 15,
+      "lengthMm": 10
+    },
+    "tags": [
+      "flanged bushing",
+      "sleeve bearing",
+      "plain bearing",
+      "oilite"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FB-8X10X10-POLY"
+  },
+  {
+    "id": "P0104",
+    "partNumber": "FB-10X12X12-POLY",
+    "name": "Flanged sleeve bushing 10x12x12 mm, iglidur G polymer",
+    "category": "bushing",
+    "standard": "vendor",
+    "material": "iglidur G polymer",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 10,
+      "outerDiameterMm": 12,
+      "flangeDiameterMm": 18,
+      "lengthMm": 12
+    },
+    "tags": [
+      "flanged bushing",
+      "sleeve bearing",
+      "plain bearing",
+      "oilite"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FB-10X12X12-POLY"
+  },
+  {
+    "id": "P0105",
+    "partNumber": "SP-3.2X6X5-AL",
+    "name": "Round spacer ID 3.2 x OD 6 x 5 mm, aluminum",
+    "category": "spacer",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 3.2,
+      "outerDiameterMm": 6,
+      "lengthMm": 5
+    },
+    "tags": [
+      "spacer",
+      "round spacer",
+      "unthreaded"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SP-3.2X6X5-AL"
+  },
+  {
+    "id": "P0106",
+    "partNumber": "SP-3.2X6X10-AL",
+    "name": "Round spacer ID 3.2 x OD 6 x 10 mm, aluminum",
+    "category": "spacer",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 3.2,
+      "outerDiameterMm": 6,
+      "lengthMm": 10
+    },
+    "tags": [
+      "spacer",
+      "round spacer",
+      "unthreaded"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SP-3.2X6X10-AL"
+  },
+  {
+    "id": "P0107",
+    "partNumber": "SP-6.4X10X5-AL",
+    "name": "Round spacer ID 6.4 x OD 10 x 5 mm, aluminum",
+    "category": "spacer",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 6.4,
+      "outerDiameterMm": 10,
+      "lengthMm": 5
+    },
+    "tags": [
+      "spacer",
+      "round spacer",
+      "unthreaded"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SP-6.4X10X5-AL"
+  },
+  {
+    "id": "P0108",
+    "partNumber": "SP-6.4X10X10-AL",
+    "name": "Round spacer ID 6.4 x OD 10 x 10 mm, aluminum",
+    "category": "spacer",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 6.4,
+      "outerDiameterMm": 10,
+      "lengthMm": 10
+    },
+    "tags": [
+      "spacer",
+      "round spacer",
+      "unthreaded"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SP-6.4X10X10-AL"
+  },
+  {
+    "id": "P0109",
+    "partNumber": "SP-8.2X12X10-AL",
+    "name": "Round spacer ID 8.2 x OD 12 x 10 mm, aluminum",
+    "category": "spacer",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 8.2,
+      "outerDiameterMm": 12,
+      "lengthMm": 10
+    },
+    "tags": [
+      "spacer",
+      "round spacer",
+      "unthreaded"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SP-8.2X12X10-AL"
+  },
+  {
+    "id": "P0110",
+    "partNumber": "SO-M3-10-FF-BR",
+    "name": "Hex standoff M3x0.5 x 10 mm, female-female, brass",
+    "category": "standoff",
+    "standard": "vendor",
+    "material": "Brass nickel plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "lengthMm": 10,
+      "acrossFlatsMm": 5,
+      "gender": "female-female"
+    },
+    "tags": [
+      "standoff",
+      "PCB standoff",
+      "hex spacer",
+      "threaded"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SO-M3-10-FF-BR"
+  },
+  {
+    "id": "P0111",
+    "partNumber": "SO-M3-20-FF-BR",
+    "name": "Hex standoff M3x0.5 x 20 mm, female-female, brass",
+    "category": "standoff",
+    "standard": "vendor",
+    "material": "Brass nickel plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "lengthMm": 20,
+      "acrossFlatsMm": 5,
+      "gender": "female-female"
+    },
+    "tags": [
+      "standoff",
+      "PCB standoff",
+      "hex spacer",
+      "threaded"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SO-M3-20-FF-BR"
+  },
+  {
+    "id": "P0112",
+    "partNumber": "SO-M3-10-MF-BR",
+    "name": "Hex standoff M3x0.5 x 10 mm, male-female, brass",
+    "category": "standoff",
+    "standard": "vendor",
+    "material": "Brass nickel plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "lengthMm": 10,
+      "acrossFlatsMm": 5,
+      "gender": "male-female"
+    },
+    "tags": [
+      "standoff",
+      "PCB standoff",
+      "hex spacer",
+      "threaded"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SO-M3-10-MF-BR"
+  },
+  {
+    "id": "P0113",
+    "partNumber": "SO-M4-15-FF-BR",
+    "name": "Hex standoff M4x0.7 x 15 mm, female-female, brass",
+    "category": "standoff",
+    "standard": "vendor",
+    "material": "Brass nickel plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.7",
+      "lengthMm": 15,
+      "acrossFlatsMm": 7,
+      "gender": "female-female"
+    },
+    "tags": [
+      "standoff",
+      "PCB standoff",
+      "hex spacer",
+      "threaded"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SO-M4-15-FF-BR"
+  },
+  {
+    "id": "P0114",
+    "partNumber": "PUL-GT2-16T-5B-AL",
+    "name": "GT2 timing pulley 16T, 5 mm bore, for 6 mm belt",
+    "category": "pulley",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "profile": "GT2",
+      "teeth": 16,
+      "boreMm": 5,
+      "beltWidthMm": 6,
+      "pitchDiameterMm": 10.19,
+      "setScrew": "M3"
+    },
+    "tags": [
+      "timing pulley",
+      "pulley",
+      "GT2",
+      "belt drive"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/PUL-GT2-16T-5B-AL"
+  },
+  {
+    "id": "P0115",
+    "partNumber": "PUL-GT2-20T-5B-AL",
+    "name": "GT2 timing pulley 20T, 5 mm bore, for 6 mm belt",
+    "category": "pulley",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "profile": "GT2",
+      "teeth": 20,
+      "boreMm": 5,
+      "beltWidthMm": 6,
+      "pitchDiameterMm": 12.73,
+      "setScrew": "M3"
+    },
+    "tags": [
+      "timing pulley",
+      "pulley",
+      "GT2",
+      "belt drive"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/PUL-GT2-20T-5B-AL"
+  },
+  {
+    "id": "P0116",
+    "partNumber": "PUL-GT2-20T-8B-AL",
+    "name": "GT2 timing pulley 20T, 8 mm bore, for 6 mm belt",
+    "category": "pulley",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "profile": "GT2",
+      "teeth": 20,
+      "boreMm": 8,
+      "beltWidthMm": 6,
+      "pitchDiameterMm": 12.73,
+      "setScrew": "M4"
+    },
+    "tags": [
+      "timing pulley",
+      "pulley",
+      "GT2",
+      "belt drive"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/PUL-GT2-20T-8B-AL"
+  },
+  {
+    "id": "P0117",
+    "partNumber": "PUL-GT2-40T-8B-AL",
+    "name": "GT2 timing pulley 40T, 8 mm bore, for 6 mm belt",
+    "category": "pulley",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "profile": "GT2",
+      "teeth": 40,
+      "boreMm": 8,
+      "beltWidthMm": 6,
+      "pitchDiameterMm": 25.46,
+      "setScrew": "M4"
+    },
+    "tags": [
+      "timing pulley",
+      "pulley",
+      "GT2",
+      "belt drive"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/PUL-GT2-40T-8B-AL"
+  },
+  {
+    "id": "P0118",
+    "partNumber": "PUL-HTD5M-15T-8B-AL",
+    "name": "HTD5M timing pulley 15T, 8 mm bore, for 15 mm belt",
+    "category": "pulley",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "profile": "HTD5M",
+      "teeth": 15,
+      "boreMm": 8,
+      "beltWidthMm": 15,
+      "pitchDiameterMm": 23.87,
+      "setScrew": "M4"
+    },
+    "tags": [
+      "timing pulley",
+      "pulley",
+      "HTD5M",
+      "belt drive"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/PUL-HTD5M-15T-8B-AL"
+  },
+  {
+    "id": "P0119",
+    "partNumber": "PUL-HTD5M-30T-12B-AL",
+    "name": "HTD5M timing pulley 30T, 12 mm bore, for 15 mm belt",
+    "category": "pulley",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "profile": "HTD5M",
+      "teeth": 30,
+      "boreMm": 12,
+      "beltWidthMm": 15,
+      "pitchDiameterMm": 47.75,
+      "setScrew": "M4"
+    },
+    "tags": [
+      "timing pulley",
+      "pulley",
+      "HTD5M",
+      "belt drive"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/PUL-HTD5M-30T-12B-AL"
+  },
+  {
+    "id": "P0120",
+    "partNumber": "GR-M1-20T-8B-STL",
+    "name": "Spur gear module 1, 20T, 8 mm bore, Steel C45",
+    "category": "gear",
+    "standard": "ISO 53",
+    "material": "Steel C45",
+    "unitSystem": "metric",
+    "dimensions": {
+      "module": 1,
+      "teeth": 20,
+      "boreMm": 8,
+      "pitchDiameterMm": 20,
+      "faceWidthMm": 10,
+      "pressureAngleDeg": 20
+    },
+    "loadRatingN": 1200,
+    "tags": [
+      "spur gear",
+      "gear",
+      "module",
+      "20T"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/GR-M1-20T-8B-STL"
+  },
+  {
+    "id": "P0121",
+    "partNumber": "GR-M1-40T-8B-STL",
+    "name": "Spur gear module 1, 40T, 8 mm bore, Steel C45",
+    "category": "gear",
+    "standard": "ISO 53",
+    "material": "Steel C45",
+    "unitSystem": "metric",
+    "dimensions": {
+      "module": 1,
+      "teeth": 40,
+      "boreMm": 8,
+      "pitchDiameterMm": 40,
+      "faceWidthMm": 10,
+      "pressureAngleDeg": 20
+    },
+    "loadRatingN": 1200,
+    "tags": [
+      "spur gear",
+      "gear",
+      "module",
+      "40T"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/GR-M1-40T-8B-STL"
+  },
+  {
+    "id": "P0122",
+    "partNumber": "GR-M1-20T-6B-POM",
+    "name": "Spur gear module 1, 20T, 6 mm bore, POM acetal",
+    "category": "gear",
+    "standard": "ISO 53",
+    "material": "POM acetal",
+    "unitSystem": "metric",
+    "dimensions": {
+      "module": 1,
+      "teeth": 20,
+      "boreMm": 6,
+      "pitchDiameterMm": 20,
+      "faceWidthMm": 10,
+      "pressureAngleDeg": 20
+    },
+    "loadRatingN": 180,
+    "tags": [
+      "spur gear",
+      "gear",
+      "module",
+      "20T"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/GR-M1-20T-6B-POM"
+  },
+  {
+    "id": "P0123",
+    "partNumber": "GR-M1.5-30T-12B-STL",
+    "name": "Spur gear module 1.5, 30T, 12 mm bore, Steel C45",
+    "category": "gear",
+    "standard": "ISO 53",
+    "material": "Steel C45",
+    "unitSystem": "metric",
+    "dimensions": {
+      "module": 1.5,
+      "teeth": 30,
+      "boreMm": 12,
+      "pitchDiameterMm": 45,
+      "faceWidthMm": 15,
+      "pressureAngleDeg": 20
+    },
+    "loadRatingN": 2700,
+    "tags": [
+      "spur gear",
+      "gear",
+      "module",
+      "30T"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/GR-M1.5-30T-12B-STL"
+  },
+  {
+    "id": "P0124",
+    "partNumber": "GR-M1-60T-10B-POM",
+    "name": "Spur gear module 1, 60T, 10 mm bore, POM acetal",
+    "category": "gear",
+    "standard": "ISO 53",
+    "material": "POM acetal",
+    "unitSystem": "metric",
+    "dimensions": {
+      "module": 1,
+      "teeth": 60,
+      "boreMm": 10,
+      "pitchDiameterMm": 60,
+      "faceWidthMm": 10,
+      "pressureAngleDeg": 20
+    },
+    "loadRatingN": 180,
+    "tags": [
+      "spur gear",
+      "gear",
+      "module",
+      "60T"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/GR-M1-60T-10B-POM"
+  },
+  {
+    "id": "P0125",
+    "partNumber": "OR-8X1.5-NBR",
+    "name": "O-ring 8 x 1.5 mm, NBR 70",
+    "category": "gasket",
+    "standard": "ISO 3601",
+    "material": "NBR 70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "innerDiameterMm": 8,
+      "crossSectionMm": 1.5,
+      "outerDiameterMm": 11
+    },
+    "tags": [
+      "O-ring",
+      "seal",
+      "gasket",
+      "pressure seal"
+    ],
+    "cadFormats": [
+      "STEP",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/OR-8X1.5-NBR"
+  },
+  {
+    "id": "P0126",
+    "partNumber": "OR-10X2-NBR",
+    "name": "O-ring 10 x 2 mm, NBR 70",
+    "category": "gasket",
+    "standard": "ISO 3601",
+    "material": "NBR 70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "innerDiameterMm": 10,
+      "crossSectionMm": 2,
+      "outerDiameterMm": 14
+    },
+    "tags": [
+      "O-ring",
+      "seal",
+      "gasket",
+      "pressure seal"
+    ],
+    "cadFormats": [
+      "STEP",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/OR-10X2-NBR"
+  },
+  {
+    "id": "P0127",
+    "partNumber": "OR-20X2-NBR",
+    "name": "O-ring 20 x 2 mm, NBR 70",
+    "category": "gasket",
+    "standard": "ISO 3601",
+    "material": "NBR 70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "innerDiameterMm": 20,
+      "crossSectionMm": 2,
+      "outerDiameterMm": 24
+    },
+    "tags": [
+      "O-ring",
+      "seal",
+      "gasket",
+      "pressure seal"
+    ],
+    "cadFormats": [
+      "STEP",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/OR-20X2-NBR"
+  },
+  {
+    "id": "P0128",
+    "partNumber": "OR-20X2-FKM",
+    "name": "O-ring 20 x 2 mm, FKM Viton 75",
+    "category": "gasket",
+    "standard": "ISO 3601",
+    "material": "FKM Viton 75",
+    "unitSystem": "metric",
+    "dimensions": {
+      "innerDiameterMm": 20,
+      "crossSectionMm": 2,
+      "outerDiameterMm": 24
+    },
+    "tags": [
+      "O-ring",
+      "seal",
+      "gasket",
+      "pressure seal"
+    ],
+    "cadFormats": [
+      "STEP",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/OR-20X2-FKM"
+  },
+  {
+    "id": "P0129",
+    "partNumber": "OR-47X2.5-NBR",
+    "name": "O-ring 47 x 2.5 mm, NBR 70",
+    "category": "gasket",
+    "standard": "ISO 3601",
+    "material": "NBR 70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "innerDiameterMm": 47,
+      "crossSectionMm": 2.5,
+      "outerDiameterMm": 52
+    },
+    "tags": [
+      "O-ring",
+      "seal",
+      "gasket",
+      "pressure seal"
+    ],
+    "cadFormats": [
+      "STEP",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/OR-47X2.5-NBR"
+  },
+  {
+    "id": "P0130",
+    "partNumber": "INS-M3-5P7-BR",
+    "name": "Heat-set threaded insert M3x0.5, 5.7 mm long, brass",
+    "category": "insert",
+    "standard": "vendor",
+    "material": "Brass",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "lengthMm": 5.7
+    },
+    "tags": [
+      "threaded insert",
+      "heat-set insert",
+      "plastic",
+      "3D printed"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/INS-M3-5P7-BR"
+  },
+  {
+    "id": "P0131",
+    "partNumber": "INS-M4-8P1-BR",
+    "name": "Heat-set threaded insert M4x0.7, 8.1 mm long, brass",
+    "category": "insert",
+    "standard": "vendor",
+    "material": "Brass",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.7",
+      "lengthMm": 8.1
+    },
+    "tags": [
+      "threaded insert",
+      "heat-set insert",
+      "plastic",
+      "3D printed"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/INS-M4-8P1-BR"
+  },
+  {
+    "id": "P0132",
+    "partNumber": "INS-M6-12P7-BR",
+    "name": "Heat-set threaded insert M6x1, 12.7 mm long, brass",
+    "category": "insert",
+    "standard": "vendor",
+    "material": "Brass",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M6x1",
+      "lengthMm": 12.7
+    },
+    "tags": [
+      "threaded insert",
+      "heat-set insert",
+      "plastic",
+      "3D printed"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/INS-M6-12P7-BR"
+  }
+]

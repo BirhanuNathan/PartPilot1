@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef1f5"/><stop offset="1" stop-color="#d9dee6"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9d1dc"/><stop offset="1" stop-color="#9aa6b6"/></linearGradient>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1c40b8"/></marker>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="40" fill="#2b313a"/>
+  <text x="20" y="26" fill="#e5e7eb" font-size="16">Assembly1 — motor_mount_plate.SLDPRT  [Front view]</text>
+  <!-- plate -->
+  <rect x="330" y="150" width="420" height="420" rx="8" fill="url(#metal)" stroke="#3b4350" stroke-width="3"/>
+  <!-- pilot bore -->
+  <circle cx="540" cy="360" r="112" fill="#eef1f5" stroke="#3b4350" stroke-width="3"/>
+  <!-- shaft -->
+  <circle cx="540" cy="360" r="40" fill="#7d8796" stroke="#2b313a" stroke-width="3"/>
+  <circle cx="540" cy="360" r="40" fill="none" stroke="#fff" stroke-opacity=".4" stroke-width="2" stroke-dasharray="6 6"/>
+  <!-- 4 holes on 31 mm pattern (310 px) -->
+  <g fill="#eef1f5" stroke="#3b4350" stroke-width="3">
+    <circle cx="385" cy="205" r="17"/><circle cx="695" cy="205" r="17"/><circle cx="385" cy="515" r="17"/><circle cx="695" cy="515" r="17"/>
+  </g>
+  <!-- centerlines -->
+  <g stroke="#1c40b8" stroke-width="1.5" stroke-dasharray="14 5 3 5">
+    <line x1="300" y1="360" x2="780" y2="360"/><line x1="540" y1="120" x2="540" y2="600"/>
+  </g>
+  <!-- dims -->
+  <g stroke="#1c40b8" stroke-width="2" fill="none">
+    <line x1="385" y1="620" x2="695" y2="620" marker-start="url(#a)" marker-end="url(#a)"/>
+    <line x1="385" y1="532" x2="385" y2="630"/><line x1="695" y1="532" x2="695" y2="630"/>
+    <line x1="800" y1="205" x2="800" y2="515" marker-start="url(#a)" marker-end="url(#a)"/>
+    <line x1="712" y1="205" x2="810" y2="205"/><line x1="712" y1="515" x2="810" y2="515"/>
+    <line x1="619" y1="281" x2="760" y2="140" marker-start="url(#a)"/>
+    <line x1="568" y1="332" x2="640" y2="260" marker-start="url(#a)"/>
+    <line x1="368" y1="188" x2="300" y2="120" marker-start="url(#a)"/>
+  </g>
+  <g fill="#1c40b8" font-size="24" font-weight="bold">
+    <text x="510" y="655">31</text>
+    <text x="815" y="370">31</text>
+    <text x="765" y="135">Ø22.5</text>
+    <text x="646" y="255">Ø8 shaft</text>
+    <text x="170" y="110">4× Ø3.4 THRU (M3)</text>
+  </g>
+  <!-- side view -->
+  <text x="900" y="140" fill="#3b4350" font-size="18">Side view</text>
+  <rect x="930" y="150" width="40" height="420" fill="url(#metal)" stroke="#3b4350" stroke-width="3"/>
+  <rect x="930" y="530" width="200" height="40" fill="url(#metal)" stroke="#3b4350" stroke-width="3"/>
+  <rect x="970" y="250" width="160" height="220" fill="#5b6575" fill-opacity=".35" stroke="#3b4350" stroke-dasharray="8 6" stroke-width="2"/>
+  <text x="985" y="365" fill="#2b313a" font-size="18">NEMA 17</text>
+  <text x="985" y="390" fill="#2b313a" font-size="18">stepper</text>
+  <g stroke="#1c40b8" stroke-width="2"><line x1="930" y1="610" x2="970" y2="610" marker-start="url(#a)" marker-end="url(#a)"/></g>
+  <text x="922" y="640" fill="#1c40b8" font-size="22" font-weight="bold">t = 4</text>
+  <text x="20" y="780" fill="#4b5563" font-size="16">Units: mm · Material: Al 6061 · Scale 1:1</text>
+</svg>
