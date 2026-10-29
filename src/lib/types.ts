@@ -4,6 +4,7 @@ export type {
   Constraints,
   FinderResult,
   Need,
+  RuledOut,
   TraceStep,
   Verdict,
   VerdictType,

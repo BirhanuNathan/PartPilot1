@@ -102,6 +102,22 @@ const CATEGORY_SYNONYMS: Record<string, string> = {
   gaskets: 'gasket',
   'motor mounts': 'motor mount',
   inserts: 'insert',
+  'set screw': 'fastener',
+  'set screws': 'fastener',
+  'grub screw': 'fastener',
+  'button head screw': 'fastener',
+  'hex bolt': 'fastener',
+  'socket head cap screw': 'fastener',
+  'motor plate': 'motor mount',
+  'mounting plate': 'motor mount',
+  'motor mount plate': 'motor mount',
+  'flanged bushing': 'bushing',
+  'timing pulley': 'pulley',
+  feet: 'foot',
+  'rubber foot': 'foot',
+  'rubber feet': 'foot',
+  bumper: 'foot',
+  bumpers: 'foot',
 }
 
 /** ISO/DIN equivalents; used so "DIN 912" also finds ISO 4762 parts. */
@@ -186,7 +202,7 @@ export function searchCatalog(filters: CatalogFilters): CatalogSearchResult {
       if (b === undefined || Math.abs(b - filters.boreMm) > tol) return false
     }
     if (filters.outerDiameterMm !== undefined) {
-      const od = p.dimensions.outerDiameterMm
+      const od = p.dimensions.outerDiameterMm ?? (p.category === 'shaft' ? p.dimensions.diameterMm : undefined)
       if (od === undefined || Math.abs(od - filters.outerDiameterMm) > tol) return false
     }
     const len = p.dimensions.lengthMm ?? (p.dimensions.legLengthMm as number | undefined)

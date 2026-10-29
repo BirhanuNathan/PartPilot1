@@ -15,7 +15,9 @@ import { checkCompatibilityTool, getPartTool, searchCatalogTool } from './lib/to
  * Deterministic guardrails applied on top of the LLM's verdicts:
  * - re-run the rule engine on the chosen part and use its numbers as the shown checks;
  * - an APPROVE on a part that fails a rule is downgraded to ESCALATE_TO_HUMAN;
- * - low confidence, safety-critical needs, or any escalation force human review.
+ * - low confidence, safety-critical needs, or any escalation force human review;
+ * - every other shortlisted candidate that fails a rule is listed in `ruledOut`, so near-misses are visible.
+ * Guardrails can only make a verdict stricter, never looser.
  */
 function applyGuardrails(result: VerifyResult, shortlist: FinderResult): VerifyResult {
   const reasons = new Set(result.reasonsForReview)
@@ -38,7 +40,15 @@ function applyGuardrails(result: VerifyResult, shortlist: FinderResult): VerifyR
         verdict = 'ESCALATE_TO_HUMAN'
         reasons.add(`${v.need}: safety-critical use requires engineer sign-off`)
       }
-      return { ...v, verdict, notes, checks: report.checks }
+      const ruledOut = [...new Set([...need.candidates.map((c) => c.partId), ...(v.originalPartId ? [v.originalPartId] : [])])]
+        .map((id) => getPart(id))
+        .filter((p): p is NonNullable<typeof p> => !!p && p.id !== part.id)
+        .flatMap((p) => {
+          const failed = checkCompatibility(p, need.requirement!).checks.filter((c) => c.result === 'fail')
+          if (failed.length === 0) return []
+          return [{ partId: p.id, partNumber: p.partNumber, failed: failed.map((c) => c.rule), detail: failed.map((c) => c.detail).join(' ') }]
+        })
+      return { ...v, verdict, notes, checks: report.checks, ruledOut }
     })
 
   if (result.overallConfidence < 0.7) reasons.add(`Fit Checker confidence ${result.overallConfidence.toFixed(2)} is below 0.70`)
@@ -113,6 +123,12 @@ export default async (req: Request, context: Context) => {
     }
 
     const result = applyGuardrails(outcome.result, shortlist)
+    let idx = 1000
+    for (const v of result.verdicts) {
+      for (const r of v.ruledOut ?? []) {
+        send({ type: 'step', step: { index: idx++, kind: 'info', label: `Ruled out ${r.partNumber} for “${v.need}”: fails ${r.failed.join(', ')}`, resultSummary: r.detail, at: new Date().toISOString() } })
+      }
+    }
     send({ type: 'step', step: { index: 999, kind: 'info', label: 'Applied deterministic guardrails (rule re-check, confidence and safety thresholds)', at: new Date().toISOString() } })
 
     const parts: Record<string, unknown> = {}

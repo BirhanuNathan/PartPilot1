@@ -442,6 +442,163 @@ for (const [thread, len] of [['M3x0.5', 5.7], ['M4x0.7', 8.1], ['M6x1', 12.7]]) 
   })
 }
 
+// ============================================================================================
+// Golden-path example coverage. Appended after the original catalog so existing ids stay stable.
+// Every need in the four home-page examples has an exact match plus a close alternate, and each
+// example has one deliberate near-miss (wrong pitch or wrong bore) for the Fit Checker to rule out.
+// ============================================================================================
+
+// --- Flat NEMA 17 motor mount plates (example A)
+for (const [t, mat, code] of [[4, 'Aluminum 6061-T6', 'AL'], [5, 'Aluminum 6061-T6', 'AL'], [3, 'Steel zinc plated', 'STL']]) {
+  add({
+    partNumber: `MP-NEMA17-FLAT-${t}-${code}`,
+    name: `NEMA 17 flat motor mount plate, ${t} mm ${mat}, 31 mm bolt pattern, Ø22.5 pilot`,
+    category: 'motor mount',
+    standard: 'vendor',
+    material: mat,
+    dimensions: { motorFrame: 'NEMA 17', boltPatternMm: 31, pilotDiameterMm: 22.5, holeForThread: 'M3', holeDiameterMm: 3.4, thicknessMm: t, plateSizeMm: 60, style: 'flat plate' },
+    loadRatingN: code === 'STL' ? 700 : t * 120,
+    tags: ['motor mount', 'NEMA 17', 'stepper', 'flat plate', 'mounting plate', 'bracket plate'],
+  })
+}
+
+// Near-miss (example A): fine-pitch M3x0.35 socket head screw, looks like the M3x0.5 x 10 mm part
+add({
+  partNumber: 'SHCS-M3X0.35-10-88Z',
+  name: 'Socket head cap screw M3x0.35 FINE pitch x 10 mm, Steel 8.8 zinc plated',
+  category: 'fastener',
+  standard: 'ISO 4762',
+  material: 'Steel 8.8 zinc plated',
+  dimensions: { thread: 'M3x0.35', nominalDiameterMm: 3, pitchMm: 0.35, lengthMm: 10, headDiameterMm: 5.5 },
+  loadRatingN: Math.round(5.6 * proof['Steel 8.8 zinc plated']),
+  tags: ['socket head cap screw', 'SHCS', 'cap screw', 'metric', 'fine thread', 'M3'],
+})
+
+// --- 5 mm bore flanged bushings (examples A and D)
+for (const [mat, code, std, fl] of [['Sintered bronze SAE 841', 'BRZ', 'ISO 2795', 11], ['iglidur G polymer', 'POLY', 'vendor', 11]]) {
+  add({
+    partNumber: `FB-5X8X6-${code}`,
+    name: `Flanged sleeve bushing 5x8x6 mm, ${mat}`,
+    category: 'bushing',
+    standard: std,
+    material: mat,
+    dimensions: { boreMm: 5, outerDiameterMm: 8, flangeDiameterMm: fl, flangeThicknessMm: 1, lengthMm: 6 },
+    tags: ['flanged bushing', 'sleeve bearing', 'plain bearing', '5 mm', code === 'BRZ' ? 'oilite' : 'polymer'],
+  })
+}
+
+// --- More hex standoffs (examples A and B)
+for (const [thread, len, mat, code] of [
+  ['M3x0.5', 20, 'Aluminum 6061-T6 anodized', 'AL'],
+  ['M4x0.7', 20, 'Aluminum 6061-T6 anodized', 'AL'],
+  ['M4x0.7', 20, 'Brass nickel plated', 'BR'],
+]) {
+  add({
+    partNumber: `SO-${thread.split('x')[0]}-${len}-FF-${code}`,
+    name: `Hex standoff ${thread} x ${len} mm, female-female, ${mat.startsWith('Brass') ? 'brass' : 'aluminum'}`,
+    category: 'standoff',
+    standard: 'vendor',
+    material: mat,
+    dimensions: { thread, lengthMm: len, acrossFlatsMm: thread.startsWith('M3') ? 5 : 7, gender: 'female-female' },
+    tags: ['standoff', 'PCB standoff', 'hex spacer', 'threaded', thread.split('x')[0]],
+  })
+}
+
+// --- Button head socket screws ISO 7380 (example B), incl. the M4x0.5 fine-pitch near-miss
+for (const [thread, len, mat, code] of [
+  ['M4x0.7', 8, 'Steel 10.9 zinc plated', '109Z'],
+  ['M4x0.7', 10, 'Steel 10.9 zinc plated', '109Z'],
+  ['M4x0.7', 12, 'Steel 10.9 zinc plated', '109Z'],
+  ['M4x0.7', 10, 'Stainless A2-70', 'A2'],
+  ['M4x0.5', 10, 'Steel 10.9 zinc plated', '109Z'],
+]) {
+  const p = Number(thread.split('x')[1])
+  add({
+    partNumber: `BHCS-${thread.toUpperCase()}-${len}-${code}`,
+    name: `Button head socket screw ${thread}${p === 0.5 ? ' FINE pitch' : ''} x ${len} mm, ${mat}`,
+    category: 'fastener',
+    standard: 'ISO 7380',
+    material: mat,
+    dimensions: { thread, nominalDiameterMm: 4, pitchMm: p, lengthMm: len, headDiameterMm: 7.6, headType: 'button' },
+    loadRatingN: Math.round((p === 0.5 ? 9.79 : stressArea.M4) * (code === 'A2' ? 450 : 830)),
+    tags: ['button head', 'button head socket screw', 'BHCS', 'metric', p === 0.5 ? 'fine thread' : 'coarse thread', 'M4'],
+  })
+}
+
+// --- Rubber feet (example B)
+for (const [d, h, mat, code] of [[20, 8, 'NBR rubber 60 Shore A', 'NBR'], [20, 8, 'EPDM rubber 60 Shore A', 'EPDM'], [20, 10, 'NBR rubber 60 Shore A', 'NBR']]) {
+  add({
+    partNumber: `RF-${d}X${h}-M4-${code}`,
+    name: `Rubber foot Ø${d} x ${h} mm with M4 screw hole, ${mat}`,
+    category: 'foot',
+    standard: 'vendor',
+    material: mat,
+    dimensions: { diameterMm: d, heightMm: h, holeForThread: 'M4', holeDiameterMm: 4.5 },
+    tags: ['rubber foot', 'rubber feet', 'bumper', 'enclosure foot', 'anti-slip', 'M4'],
+  })
+}
+
+// --- Conveyor idler (example C): shielded 6001, stainless shaft, steel clamp collar
+add({
+  partNumber: 'BRG-6001-ZZ',
+  name: 'Deep groove ball bearing 6001-ZZ, 12x28x8 mm',
+  category: 'bearing',
+  standard: 'ISO 15',
+  material: 'Chrome steel 52100',
+  dimensions: { boreMm: 12, outerDiameterMm: 28, widthMm: 8, series: '6001', seal: 'metal shielded' },
+  loadRatingN: 5100,
+  tags: ['ball bearing', 'deep groove', 'radial bearing', '6001', 'ZZ'],
+})
+add({
+  partNumber: 'SFT-12H6-200-SS',
+  name: 'Precision shaft Ø12 h6 x 200 mm, Stainless 440C',
+  category: 'shaft',
+  standard: 'ISO 286 h6',
+  material: 'Stainless 440C hardened',
+  dimensions: { diameterMm: 12, lengthMm: 200, tolerance: 'h6' },
+  tags: ['shaft', 'stainless', 'precision', '12 mm'],
+})
+add({
+  partNumber: 'SC-12-CL-STL',
+  name: 'One-piece clamp shaft collar 12 mm bore, steel black oxide',
+  category: 'shaft collar',
+  standard: 'vendor',
+  material: 'Steel black oxide',
+  dimensions: { boreMm: 12, outerDiameterMm: 26, widthMm: 13, clampScrew: 'M4' },
+  tags: ['shaft collar', 'clamp collar', 'steel', '12 mm'],
+})
+
+// --- Pulley stage (example D): steel GT2 pulley, stainless Ø5 shaft, ISO 4029 set screws
+add({
+  partNumber: 'PUL-GT2-20T-5B-STL',
+  name: 'GT2 timing pulley 20T, 5 mm bore, for 6 mm belt, steel',
+  category: 'pulley',
+  standard: 'vendor',
+  material: 'Steel C45 black oxide',
+  dimensions: { profile: 'GT2', teeth: 20, boreMm: 5, beltWidthMm: 6, pitchDiameterMm: 12.73, setScrew: 'M3' },
+  tags: ['timing pulley', 'pulley', 'GT2', 'belt drive'],
+})
+add({
+  partNumber: 'SFT-5H6-100-SS',
+  name: 'Precision shaft Ø5 h6 x 100 mm, Stainless 440C',
+  category: 'shaft',
+  standard: 'ISO 286 h6',
+  material: 'Stainless 440C hardened',
+  dimensions: { diameterMm: 5, lengthMm: 100, tolerance: 'h6' },
+  tags: ['shaft', 'stainless', 'precision', '5 mm'],
+})
+for (const [len, mat, code] of [[3, 'Steel 45H black oxide', '45H'], [4, 'Steel 45H black oxide', '45H'], [4, 'Stainless A2', 'A2'], [5, 'Steel 45H black oxide', '45H']]) {
+  add({
+    partNumber: `SS-M3X0.5-${len}-${code}`,
+    name: `Set screw M3x0.5 x ${len} mm, cup point, ${mat}`,
+    category: 'fastener',
+    standard: 'ISO 4029',
+    material: mat,
+    dimensions: { thread: 'M3x0.5', nominalDiameterMm: 3, pitchMm: 0.5, lengthMm: len, type: 'set screw', point: 'cup' },
+    tags: ['set screw', 'grub screw', 'cup point', 'hex socket', 'metric', 'M3'],
+  })
+}
+
 mkdirSync(join(root, 'data'), { recursive: true })
 writeFileSync(join(root, 'data', 'parts.json'), JSON.stringify(parts, null, 2) + '\n')
 console.log(`Wrote ${parts.length} parts to data/parts.json`)

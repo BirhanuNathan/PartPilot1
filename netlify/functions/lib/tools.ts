@@ -10,12 +10,12 @@ function jsonSchema(schema: z.ZodType) {
 }
 
 const SearchInput = z.object({
-  category: z.string().optional().describe('Catalog category, e.g. fastener, bearing, shaft collar, bracket, motor mount, shaft, bushing, spacer, standoff, pulley, gear, gasket, nut, washer, insert'),
+  category: z.string().optional().describe('Catalog category, e.g. fastener, bearing, shaft collar, bracket, motor mount, shaft, bushing, spacer, standoff, pulley, gear, gasket, nut, washer, insert, foot (rubber feet)'),
   query: z.string().optional().describe('Free-text keywords ranked against name/tags, e.g. "socket head cap screw"'),
   filters: z
     .object({
-      thread: z.string().optional().describe('e.g. "M6x1" or "M3" (any pitch)'),
-      boreMm: z.number().optional().describe('Bore / inner diameter in mm (±0.1)'),
+      thread: z.string().optional().describe('e.g. "M6x1" (exact pitch) or "M3" (any pitch — shows pitch look-alikes too)'),
+      boreMm: z.number().optional().describe('Bore / inner diameter in mm (±0.1); for shafts, the shaft diameter'),
       outerDiameterMm: z.number().optional(),
       minLengthMm: z.number().optional(),
       maxLengthMm: z.number().optional(),

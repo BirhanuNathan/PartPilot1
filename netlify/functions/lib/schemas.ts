@@ -52,6 +52,14 @@ export const VerdictCheckSchema = z.object({
   detail: z.string(),
 })
 
+/** A shortlisted candidate the deterministic rule engine ruled out (added by the server, never by the LLM). */
+export const RuledOutSchema = z.object({
+  partId: z.string(),
+  partNumber: z.string(),
+  failed: z.array(z.string()),
+  detail: z.string(),
+})
+
 export const VerdictSchema = z.object({
   need: z.string(),
   partId: z.string(),
@@ -59,6 +67,7 @@ export const VerdictSchema = z.object({
   verdict: VerdictEnum,
   checks: z.array(VerdictCheckSchema).default([]),
   notes: z.string().default(''),
+  ruledOut: z.array(RuledOutSchema).optional(),
 })
 
 export const VerifyResultSchema = z.object({
@@ -86,6 +95,7 @@ export type Constraints = z.infer<typeof ConstraintsSchema>
 export type FinderResult = z.infer<typeof FinderResultSchema>
 export type Need = z.infer<typeof NeedSchema>
 export type Verdict = z.infer<typeof VerdictSchema>
+export type RuledOut = z.infer<typeof RuledOutSchema>
 export type VerdictType = z.infer<typeof VerdictEnum>
 export type VerifyResult = z.infer<typeof VerifyResultSchema>
 
