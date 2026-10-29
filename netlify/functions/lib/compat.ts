@@ -50,7 +50,8 @@ export interface CompatibilityReport {
 }
 
 const has = (s: string | undefined, ...words: string[]) => !!s && words.some((w) => s.toLowerCase().includes(w))
-const isSoft = (m?: string) => has(m, 'alumin', 'nylon', 'plastic', 'pom', 'abs', 'pla', 'polymer', 'brass')
+// Word-boundary match: "pla" (PLA plastic) must not match "zinc plated", "abs" must not match "absorbing".
+const isSoft = (m?: string) => !!m && /\balumin|\bnylon\b|\bplastic|\bpom\b|\babs\b|\bpla\b|\bpolymer|\bbrass\b|\bacetal\b/i.test(m)
 const isSteel = (m?: string) => has(m, 'steel', 'iron', 'stainless')
 const fmt = (n: number) => `${Math.round(n * 100) / 100}`
 
@@ -148,8 +149,9 @@ export function checkCompatibility(part: Part, req: Requirement): CompatibilityR
     })
   }
 
-  // 6. Thread engagement ≥ 1.5×d (2×d into soft material)
-  if (isFastener && req.clampThicknessMm !== undefined && len !== undefined && d.nominalDiameterMm) {
+  // 6. Thread engagement ≥ 1.5×d (2×d into soft material). Applies to clamping screws; a set screw clamps nothing.
+  const isSetScrew = d.type === 'set screw'
+  if (isFastener && !isSetScrew && req.clampThicknessMm !== undefined && len !== undefined && d.nominalDiameterMm) {
     const factor = isSoft(req.tappedMaterial) ? 2 : 1.5
     const required = factor * d.nominalDiameterMm
     const engagement = len - req.clampThicknessMm

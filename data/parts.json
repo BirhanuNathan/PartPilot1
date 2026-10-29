@@ -3775,5 +3775,789 @@
       "IGES"
     ],
     "downloadUrl": "https://example-parts-library.com/part/INS-M6-12P7-BR"
+  },
+  {
+    "id": "P0133",
+    "partNumber": "MP-NEMA17-FLAT-4-AL",
+    "name": "NEMA 17 flat motor mount plate, 4 mm Aluminum 6061-T6, 31 mm bolt pattern, Ø22.5 pilot",
+    "category": "motor mount",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "motorFrame": "NEMA 17",
+      "boltPatternMm": 31,
+      "pilotDiameterMm": 22.5,
+      "holeForThread": "M3",
+      "holeDiameterMm": 3.4,
+      "thicknessMm": 4,
+      "plateSizeMm": 60,
+      "style": "flat plate"
+    },
+    "loadRatingN": 480,
+    "tags": [
+      "motor mount",
+      "NEMA 17",
+      "stepper",
+      "flat plate",
+      "mounting plate",
+      "bracket plate"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/MP-NEMA17-FLAT-4-AL"
+  },
+  {
+    "id": "P0134",
+    "partNumber": "MP-NEMA17-FLAT-5-AL",
+    "name": "NEMA 17 flat motor mount plate, 5 mm Aluminum 6061-T6, 31 mm bolt pattern, Ø22.5 pilot",
+    "category": "motor mount",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6",
+    "unitSystem": "metric",
+    "dimensions": {
+      "motorFrame": "NEMA 17",
+      "boltPatternMm": 31,
+      "pilotDiameterMm": 22.5,
+      "holeForThread": "M3",
+      "holeDiameterMm": 3.4,
+      "thicknessMm": 5,
+      "plateSizeMm": 60,
+      "style": "flat plate"
+    },
+    "loadRatingN": 600,
+    "tags": [
+      "motor mount",
+      "NEMA 17",
+      "stepper",
+      "flat plate",
+      "mounting plate",
+      "bracket plate"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/MP-NEMA17-FLAT-5-AL"
+  },
+  {
+    "id": "P0135",
+    "partNumber": "MP-NEMA17-FLAT-3-STL",
+    "name": "NEMA 17 flat motor mount plate, 3 mm Steel zinc plated, 31 mm bolt pattern, Ø22.5 pilot",
+    "category": "motor mount",
+    "standard": "vendor",
+    "material": "Steel zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "motorFrame": "NEMA 17",
+      "boltPatternMm": 31,
+      "pilotDiameterMm": 22.5,
+      "holeForThread": "M3",
+      "holeDiameterMm": 3.4,
+      "thicknessMm": 3,
+      "plateSizeMm": 60,
+      "style": "flat plate"
+    },
+    "loadRatingN": 700,
+    "tags": [
+      "motor mount",
+      "NEMA 17",
+      "stepper",
+      "flat plate",
+      "mounting plate",
+      "bracket plate"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/MP-NEMA17-FLAT-3-STL"
+  },
+  {
+    "id": "P0136",
+    "partNumber": "SHCS-M3X0.35-10-88Z",
+    "name": "Socket head cap screw M3x0.35 FINE pitch x 10 mm, Steel 8.8 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 4762",
+    "material": "Steel 8.8 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.35",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.35,
+      "lengthMm": 10,
+      "headDiameterMm": 5.5
+    },
+    "loadRatingN": 3360,
+    "tags": [
+      "socket head cap screw",
+      "SHCS",
+      "cap screw",
+      "metric",
+      "fine thread",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SHCS-M3X0.35-10-88Z"
+  },
+  {
+    "id": "P0137",
+    "partNumber": "FB-5X8X6-BRZ",
+    "name": "Flanged sleeve bushing 5x8x6 mm, Sintered bronze SAE 841",
+    "category": "bushing",
+    "standard": "ISO 2795",
+    "material": "Sintered bronze SAE 841",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 5,
+      "outerDiameterMm": 8,
+      "flangeDiameterMm": 11,
+      "flangeThicknessMm": 1,
+      "lengthMm": 6
+    },
+    "tags": [
+      "flanged bushing",
+      "sleeve bearing",
+      "plain bearing",
+      "5 mm",
+      "oilite"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FB-5X8X6-BRZ"
+  },
+  {
+    "id": "P0138",
+    "partNumber": "FB-5X8X6-POLY",
+    "name": "Flanged sleeve bushing 5x8x6 mm, iglidur G polymer",
+    "category": "bushing",
+    "standard": "vendor",
+    "material": "iglidur G polymer",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 5,
+      "outerDiameterMm": 8,
+      "flangeDiameterMm": 11,
+      "flangeThicknessMm": 1,
+      "lengthMm": 6
+    },
+    "tags": [
+      "flanged bushing",
+      "sleeve bearing",
+      "plain bearing",
+      "5 mm",
+      "polymer"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/FB-5X8X6-POLY"
+  },
+  {
+    "id": "P0139",
+    "partNumber": "SO-M3-20-FF-AL",
+    "name": "Hex standoff M3x0.5 x 20 mm, female-female, aluminum",
+    "category": "standoff",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6 anodized",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "lengthMm": 20,
+      "acrossFlatsMm": 5,
+      "gender": "female-female"
+    },
+    "tags": [
+      "standoff",
+      "PCB standoff",
+      "hex spacer",
+      "threaded",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SO-M3-20-FF-AL"
+  },
+  {
+    "id": "P0140",
+    "partNumber": "SO-M4-20-FF-AL",
+    "name": "Hex standoff M4x0.7 x 20 mm, female-female, aluminum",
+    "category": "standoff",
+    "standard": "vendor",
+    "material": "Aluminum 6061-T6 anodized",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.7",
+      "lengthMm": 20,
+      "acrossFlatsMm": 7,
+      "gender": "female-female"
+    },
+    "tags": [
+      "standoff",
+      "PCB standoff",
+      "hex spacer",
+      "threaded",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SO-M4-20-FF-AL"
+  },
+  {
+    "id": "P0141",
+    "partNumber": "SO-M4-20-FF-BR",
+    "name": "Hex standoff M4x0.7 x 20 mm, female-female, brass",
+    "category": "standoff",
+    "standard": "vendor",
+    "material": "Brass nickel plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.7",
+      "lengthMm": 20,
+      "acrossFlatsMm": 7,
+      "gender": "female-female"
+    },
+    "tags": [
+      "standoff",
+      "PCB standoff",
+      "hex spacer",
+      "threaded",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SO-M4-20-FF-BR"
+  },
+  {
+    "id": "P0142",
+    "partNumber": "BHCS-M4X0.7-8-109Z",
+    "name": "Button head socket screw M4x0.7 x 8 mm, Steel 10.9 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 7380",
+    "material": "Steel 10.9 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.7",
+      "nominalDiameterMm": 4,
+      "pitchMm": 0.7,
+      "lengthMm": 8,
+      "headDiameterMm": 7.6,
+      "headType": "button"
+    },
+    "loadRatingN": 7287,
+    "tags": [
+      "button head",
+      "button head socket screw",
+      "BHCS",
+      "metric",
+      "coarse thread",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BHCS-M4X0.7-8-109Z"
+  },
+  {
+    "id": "P0143",
+    "partNumber": "BHCS-M4X0.7-10-109Z",
+    "name": "Button head socket screw M4x0.7 x 10 mm, Steel 10.9 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 7380",
+    "material": "Steel 10.9 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.7",
+      "nominalDiameterMm": 4,
+      "pitchMm": 0.7,
+      "lengthMm": 10,
+      "headDiameterMm": 7.6,
+      "headType": "button"
+    },
+    "loadRatingN": 7287,
+    "tags": [
+      "button head",
+      "button head socket screw",
+      "BHCS",
+      "metric",
+      "coarse thread",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BHCS-M4X0.7-10-109Z"
+  },
+  {
+    "id": "P0144",
+    "partNumber": "BHCS-M4X0.7-12-109Z",
+    "name": "Button head socket screw M4x0.7 x 12 mm, Steel 10.9 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 7380",
+    "material": "Steel 10.9 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.7",
+      "nominalDiameterMm": 4,
+      "pitchMm": 0.7,
+      "lengthMm": 12,
+      "headDiameterMm": 7.6,
+      "headType": "button"
+    },
+    "loadRatingN": 7287,
+    "tags": [
+      "button head",
+      "button head socket screw",
+      "BHCS",
+      "metric",
+      "coarse thread",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BHCS-M4X0.7-12-109Z"
+  },
+  {
+    "id": "P0145",
+    "partNumber": "BHCS-M4X0.7-10-A2",
+    "name": "Button head socket screw M4x0.7 x 10 mm, Stainless A2-70",
+    "category": "fastener",
+    "standard": "ISO 7380",
+    "material": "Stainless A2-70",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.7",
+      "nominalDiameterMm": 4,
+      "pitchMm": 0.7,
+      "lengthMm": 10,
+      "headDiameterMm": 7.6,
+      "headType": "button"
+    },
+    "loadRatingN": 3951,
+    "tags": [
+      "button head",
+      "button head socket screw",
+      "BHCS",
+      "metric",
+      "coarse thread",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BHCS-M4X0.7-10-A2"
+  },
+  {
+    "id": "P0146",
+    "partNumber": "BHCS-M4X0.5-10-109Z",
+    "name": "Button head socket screw M4x0.5 FINE pitch x 10 mm, Steel 10.9 zinc plated",
+    "category": "fastener",
+    "standard": "ISO 7380",
+    "material": "Steel 10.9 zinc plated",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M4x0.5",
+      "nominalDiameterMm": 4,
+      "pitchMm": 0.5,
+      "lengthMm": 10,
+      "headDiameterMm": 7.6,
+      "headType": "button"
+    },
+    "loadRatingN": 8126,
+    "tags": [
+      "button head",
+      "button head socket screw",
+      "BHCS",
+      "metric",
+      "fine thread",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BHCS-M4X0.5-10-109Z"
+  },
+  {
+    "id": "P0147",
+    "partNumber": "RF-20X8-M4-NBR",
+    "name": "Rubber foot Ø20 x 8 mm with M4 screw hole, NBR rubber 60 Shore A",
+    "category": "foot",
+    "standard": "vendor",
+    "material": "NBR rubber 60 Shore A",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 20,
+      "heightMm": 8,
+      "holeForThread": "M4",
+      "holeDiameterMm": 4.5
+    },
+    "tags": [
+      "rubber foot",
+      "rubber feet",
+      "bumper",
+      "enclosure foot",
+      "anti-slip",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/RF-20X8-M4-NBR"
+  },
+  {
+    "id": "P0148",
+    "partNumber": "RF-20X8-M4-EPDM",
+    "name": "Rubber foot Ø20 x 8 mm with M4 screw hole, EPDM rubber 60 Shore A",
+    "category": "foot",
+    "standard": "vendor",
+    "material": "EPDM rubber 60 Shore A",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 20,
+      "heightMm": 8,
+      "holeForThread": "M4",
+      "holeDiameterMm": 4.5
+    },
+    "tags": [
+      "rubber foot",
+      "rubber feet",
+      "bumper",
+      "enclosure foot",
+      "anti-slip",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/RF-20X8-M4-EPDM"
+  },
+  {
+    "id": "P0149",
+    "partNumber": "RF-20X10-M4-NBR",
+    "name": "Rubber foot Ø20 x 10 mm with M4 screw hole, NBR rubber 60 Shore A",
+    "category": "foot",
+    "standard": "vendor",
+    "material": "NBR rubber 60 Shore A",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 20,
+      "heightMm": 10,
+      "holeForThread": "M4",
+      "holeDiameterMm": 4.5
+    },
+    "tags": [
+      "rubber foot",
+      "rubber feet",
+      "bumper",
+      "enclosure foot",
+      "anti-slip",
+      "M4"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/RF-20X10-M4-NBR"
+  },
+  {
+    "id": "P0150",
+    "partNumber": "BRG-6001-ZZ",
+    "name": "Deep groove ball bearing 6001-ZZ, 12x28x8 mm",
+    "category": "bearing",
+    "standard": "ISO 15",
+    "material": "Chrome steel 52100",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 12,
+      "outerDiameterMm": 28,
+      "widthMm": 8,
+      "series": "6001",
+      "seal": "metal shielded"
+    },
+    "loadRatingN": 5100,
+    "tags": [
+      "ball bearing",
+      "deep groove",
+      "radial bearing",
+      "6001",
+      "ZZ"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/BRG-6001-ZZ"
+  },
+  {
+    "id": "P0151",
+    "partNumber": "SFT-12H6-200-SS",
+    "name": "Precision shaft Ø12 h6 x 200 mm, Stainless 440C",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Stainless 440C hardened",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 12,
+      "lengthMm": 200,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "stainless",
+      "precision",
+      "12 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-12H6-200-SS"
+  },
+  {
+    "id": "P0152",
+    "partNumber": "SC-12-CL-STL",
+    "name": "One-piece clamp shaft collar 12 mm bore, steel black oxide",
+    "category": "shaft collar",
+    "standard": "vendor",
+    "material": "Steel black oxide",
+    "unitSystem": "metric",
+    "dimensions": {
+      "boreMm": 12,
+      "outerDiameterMm": 26,
+      "widthMm": 13,
+      "clampScrew": "M4"
+    },
+    "tags": [
+      "shaft collar",
+      "clamp collar",
+      "steel",
+      "12 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SC-12-CL-STL"
+  },
+  {
+    "id": "P0153",
+    "partNumber": "PUL-GT2-20T-5B-STL",
+    "name": "GT2 timing pulley 20T, 5 mm bore, for 6 mm belt, steel",
+    "category": "pulley",
+    "standard": "vendor",
+    "material": "Steel C45 black oxide",
+    "unitSystem": "metric",
+    "dimensions": {
+      "profile": "GT2",
+      "teeth": 20,
+      "boreMm": 5,
+      "beltWidthMm": 6,
+      "pitchDiameterMm": 12.73,
+      "setScrew": "M3"
+    },
+    "tags": [
+      "timing pulley",
+      "pulley",
+      "GT2",
+      "belt drive"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/PUL-GT2-20T-5B-STL"
+  },
+  {
+    "id": "P0154",
+    "partNumber": "SFT-5H6-100-SS",
+    "name": "Precision shaft Ø5 h6 x 100 mm, Stainless 440C",
+    "category": "shaft",
+    "standard": "ISO 286 h6",
+    "material": "Stainless 440C hardened",
+    "unitSystem": "metric",
+    "dimensions": {
+      "diameterMm": 5,
+      "lengthMm": 100,
+      "tolerance": "h6"
+    },
+    "tags": [
+      "shaft",
+      "stainless",
+      "precision",
+      "5 mm"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SFT-5H6-100-SS"
+  },
+  {
+    "id": "P0155",
+    "partNumber": "SS-M3X0.5-3-45H",
+    "name": "Set screw M3x0.5 x 3 mm, cup point, Steel 45H black oxide",
+    "category": "fastener",
+    "standard": "ISO 4029",
+    "material": "Steel 45H black oxide",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 3,
+      "type": "set screw",
+      "point": "cup"
+    },
+    "tags": [
+      "set screw",
+      "grub screw",
+      "cup point",
+      "hex socket",
+      "metric",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SS-M3X0.5-3-45H"
+  },
+  {
+    "id": "P0156",
+    "partNumber": "SS-M3X0.5-4-45H",
+    "name": "Set screw M3x0.5 x 4 mm, cup point, Steel 45H black oxide",
+    "category": "fastener",
+    "standard": "ISO 4029",
+    "material": "Steel 45H black oxide",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 4,
+      "type": "set screw",
+      "point": "cup"
+    },
+    "tags": [
+      "set screw",
+      "grub screw",
+      "cup point",
+      "hex socket",
+      "metric",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SS-M3X0.5-4-45H"
+  },
+  {
+    "id": "P0157",
+    "partNumber": "SS-M3X0.5-4-A2",
+    "name": "Set screw M3x0.5 x 4 mm, cup point, Stainless A2",
+    "category": "fastener",
+    "standard": "ISO 4029",
+    "material": "Stainless A2",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 4,
+      "type": "set screw",
+      "point": "cup"
+    },
+    "tags": [
+      "set screw",
+      "grub screw",
+      "cup point",
+      "hex socket",
+      "metric",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SS-M3X0.5-4-A2"
+  },
+  {
+    "id": "P0158",
+    "partNumber": "SS-M3X0.5-5-45H",
+    "name": "Set screw M3x0.5 x 5 mm, cup point, Steel 45H black oxide",
+    "category": "fastener",
+    "standard": "ISO 4029",
+    "material": "Steel 45H black oxide",
+    "unitSystem": "metric",
+    "dimensions": {
+      "thread": "M3x0.5",
+      "nominalDiameterMm": 3,
+      "pitchMm": 0.5,
+      "lengthMm": 5,
+      "type": "set screw",
+      "point": "cup"
+    },
+    "tags": [
+      "set screw",
+      "grub screw",
+      "cup point",
+      "hex socket",
+      "metric",
+      "M3"
+    ],
+    "cadFormats": [
+      "STEP",
+      "SLDPRT",
+      "IGES"
+    ],
+    "downloadUrl": "https://example-parts-library.com/part/SS-M3X0.5-5-45H"
   }
 ]

@@ -9,7 +9,8 @@ import { MODEL } from './prompts'
 import type { TraceStep } from './schemas'
 
 export const MAX_ITERATIONS = 5
-export const MAX_TOKENS = 1500
+/** Room for one turn of ~10 parallel check_compatibility calls, or the final JSON answer. */
+export const MAX_TOKENS = 2500
 /** Soft wall-clock budget per agent run; past this we force a final answer. */
 export const DEADLINE_MS = 16_000
 
@@ -90,6 +91,9 @@ export async function runAgent<T>(opts: AgentRunOptions<T>): Promise<AgentRunOut
 
   let finalText = ''
   let iterations = 0
+  // tool_use blocks in the last assistant turn that were never executed (e.g. the turn was cut at max_tokens).
+  // Any follow-up user message must answer them with tool_result blocks or the API rejects the request.
+  let unanswered: Anthropic.ToolUseBlock[] = []
 
   try {
     for (let i = 1; i <= MAX_ITERATIONS; i++) {
@@ -115,6 +119,7 @@ export async function runAgent<T>(opts: AgentRunOptions<T>): Promise<AgentRunOut
       const note = textOf(resp.content)
 
       if (toolUses.length === 0 || resp.stop_reason !== 'tool_use') {
+        unanswered = toolUses
         finalText = note
         if (resp.stop_reason === 'max_tokens') finalText += '\n[TRUNCATED]'
         break
@@ -171,7 +176,13 @@ export async function runAgent<T>(opts: AgentRunOptions<T>): Promise<AgentRunOut
     emit({ kind: 'info', label: 'Answer did not match the schema — asking the model to fix it…', note: parsed.error })
     messages.push({
       role: 'user',
-      content: `Your final answer was not valid for the required JSON schema.\nError: ${parsed.error}\nReply with ONLY the corrected, complete JSON object. Be concise.`,
+      content: [
+        ...unanswered.map((tu): Anthropic.ToolResultBlockParam => ({ type: 'tool_result', tool_use_id: tu.id, content: 'Not executed: the turn ended before tools could run.', is_error: true })),
+        {
+          type: 'text',
+          text: `Your final answer was not valid for the required JSON schema.\nError: ${parsed.error}\nReply with ONLY the corrected, complete JSON object. Be concise.`,
+        },
+      ],
     })
     const retry = await createMessage(client, {
       model: MODEL,

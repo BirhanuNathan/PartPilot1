@@ -1,3 +1,4 @@
+import { Bot, ShieldAlert, Workflow } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const AGENTS = [
@@ -33,15 +34,15 @@ export function AboutPage() {
     <div className="mx-auto max-w-4xl space-y-10 px-4 py-10 sm:px-6">
       <header>
         <p className="label-caps text-accent-700">How it works</p>
-        <h1 className="mt-1 text-3xl font-bold tracking-tight">From minutes of browsing to seconds</h1>
+        <h1 className="mt-1 text-3xl font-bold tracking-tight text-zinc-900">From minutes of browsing to seconds</h1>
         <p className="mt-3 text-zinc-700">
           Mechanical design engineers lose a lot of time scrolling a large online parts library for the right fastener, bearing, bracket or gear to drop into an assembly. With PartPilot you describe what you are building, optionally attach a CAD screenshot, and two AI agents find, verify and hand back the exact parts to import.
         </p>
       </header>
 
       <section aria-labelledby="agents-h">
-        <h2 id="agents-h" className="text-xl font-semibold">
-          The two agents
+        <h2 id="agents-h" className="flex items-center gap-2 text-xl font-semibold text-zinc-900">
+          <Bot className="h-5 w-5 text-accent-600" aria-hidden="true" /> The two agents
         </h2>
         <p className="mt-1 text-sm text-zinc-600">
           These are real tool-using agents rather than chatbots. The model chooses which tool to call, PartPilot runs it, feeds the result back, and the loop repeats until the model gives a final answer. Each agent is capped at 5 tool rounds so a run stays under about 25 seconds. You can watch every step on the Find Parts page.
@@ -49,7 +50,7 @@ export function AboutPage() {
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           {AGENTS.map((a) => (
             <article key={a.name} className="card p-5">
-              <h3 className="font-semibold">{a.name}</h3>
+              <h3 className="font-semibold text-zinc-900">{a.name}</h3>
               <p className="font-mono text-xs text-zinc-500">{a.endpoint}</p>
               <p className="mt-2 text-sm text-zinc-700">{a.body}</p>
               <div className="mt-3 flex flex-wrap gap-1.5">
@@ -68,13 +69,13 @@ export function AboutPage() {
       </section>
 
       <section aria-labelledby="auto-h">
-        <h2 id="auto-h" className="text-xl font-semibold">
-          The two automations
+        <h2 id="auto-h" className="flex items-center gap-2 text-xl font-semibold text-zinc-900">
+          <Workflow className="h-5 w-5 text-accent-600" aria-hidden="true" /> The two automations
         </h2>
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           {AUTOMATIONS.map((a) => (
             <article key={a.name} className="card p-5">
-              <h3 className="font-semibold">{a.name}</h3>
+              <h3 className="font-semibold text-zinc-900">{a.name}</h3>
               <p className="text-xs text-zinc-500">{a.trigger}</p>
               <ol className="mt-3 list-decimal space-y-1 pl-5 text-sm text-zinc-700">
                 {a.steps.map((s) => (
@@ -87,15 +88,15 @@ export function AboutPage() {
         <p className="mt-3 text-sm text-zinc-600">
           Every run, with its trigger and timestamped steps, appears on the{' '}
           <Link to="/admin" className="font-medium text-accent-700 hover:underline">
-            Admin page
+            Automations page
           </Link>
           .
         </p>
       </section>
 
       <section aria-labelledby="trust-h" className="card border-l-4 border-l-accent-600 p-6">
-        <h2 id="trust-h" className="text-xl font-semibold">
-          How much to trust PartPilot
+        <h2 id="trust-h" className="flex items-center gap-2 text-xl font-semibold text-zinc-900">
+          <ShieldAlert className="h-5 w-5 text-accent-600" aria-hidden="true" /> How much to trust PartPilot
         </h2>
         <h3 className="mt-4 text-sm font-semibold uppercase tracking-wide text-zinc-500">Points of failure</h3>
         <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-zinc-800">
@@ -113,15 +114,15 @@ export function AboutPage() {
       </section>
 
       <section aria-labelledby="limits-h">
-        <h2 id="limits-h" className="text-xl font-semibold">
+        <h2 id="limits-h" className="text-xl font-semibold text-zinc-900">
           Known limitations
         </h2>
         <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-zinc-700">
-          <li>The catalog here is a seed of about 130 parts standing in for the company library. The data layer can be swapped for the real library's API.</li>
+          <li>The catalog here is a seed catalog of ~170 parts standing in for the company library. The data layer can be swapped for the real library's API.</li>
           <li>Screenshots are downscaled in the browser, so very small callouts may not be readable. Typing key dimensions in the description helps.</li>
           <li>The rule engine covers the common failure modes listed above, not full tolerance stack-ups, fatigue, or thermal effects.</li>
           <li>Load ratings are catalog values; structural joints still need a proper calculation.</li>
-          <li>Demo mode replays recorded runs for the three examples only and makes no AI calls.</li>
+          <li>Demo mode replays recorded runs of the example prompts only and makes no AI calls.</li>
           <li>There are no user accounts. The approver name is typed in, and each visitor gets 20 agent requests per hour.</li>
         </ul>
       </section>

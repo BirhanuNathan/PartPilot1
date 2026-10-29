@@ -1,9 +1,11 @@
 import { useCallback, useRef, useState, type DragEvent, type FormEvent, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
+import { ChevronRight, CircleCheck, Download, ExternalLink, FlaskConical, ImageUp, Sparkles, UserRound, X } from 'lucide-react'
+import { AgentPipeline, type NodeStatus } from '../components/AgentPipeline'
 import { NeedResult } from '../components/NeedResult'
-import { StepTrace } from '../components/StepTrace'
+import { RunStepper } from '../components/RunStepper'
 import { Banner, Meter, Spinner } from '../components/ui'
-import { EXAMPLES, type ExamplePrompt } from '../demo/examples'
+import { ALL_EXAMPLES, EDGE_EXAMPLE, EXAMPLES, type ExampleId, type ExamplePrompt } from '../demo/examples'
 import { ApiError, postJson, streamAgent } from '../lib/api'
 import { useApprover, useDemoMode } from '../lib/demoMode'
 import { toPayload, validateFile } from '../lib/image'
@@ -32,7 +34,7 @@ export function FindPartsPage() {
   const [imageError, setImageError] = useState<string | null>(null)
   const [imageBusy, setImageBusy] = useState(false)
   const [dragOver, setDragOver] = useState(false)
-  const [exampleId, setExampleId] = useState<ExamplePrompt['id'] | null>(null)
+  const [exampleId, setExampleId] = useState<ExampleId | null>(null)
   const fileInput = useRef<HTMLInputElement>(null)
 
   // Run state
@@ -118,7 +120,7 @@ export function FindPartsPage() {
     setAnswer('')
   }
 
-  const runDemo = async (id: ExamplePrompt['id']) => {
+  const runDemo = async (id: ExampleId) => {
     resetRun()
     setRunMode('demo')
     setPhase('finding')
@@ -136,7 +138,7 @@ export function FindPartsPage() {
     setVerify(run.verify.result)
     setParts((p) => ({ ...p, ...run.verify.parts }))
     setPhase('done')
-    const ex = EXAMPLES.find((e) => e.id === id)!
+    const ex = ALL_EXAMPLES.find((e) => e.id === id)!
     postJson<{ searchId: string }>('/api/log-search', { description: ex.description, constraints: ex.constraints, hasImage: true, finder: run.finder.result, verify: run.verify.result })
       .then((r) => setSearchId(r.searchId))
       .catch(() => {})
@@ -192,7 +194,7 @@ export function FindPartsPage() {
     if (busy) return
     if (demo) {
       if (!exampleId) {
-        setError({ message: 'Demo mode replays the three example prompts. Pick one of the examples below, or turn Demo mode off for a live search.', stage: 'finder' })
+        setError({ message: 'Demo mode replays recorded runs of the example prompts (the four main examples and the edge case under More examples). Pick one of them below, or turn Demo mode off for a live search.', stage: 'finder' })
         setPhase('error')
         return
       }
@@ -277,16 +279,30 @@ export function FindPartsPage() {
   const finderStatus = phase === 'finding' ? 'running' : error?.stage === 'finder' && phase === 'error' ? 'error' : finder ? 'done' : 'waiting'
   const verifyStatus = phase === 'verifying' ? 'running' : error?.stage === 'verify' ? 'error' : verify ? 'done' : 'waiting'
   const showRun = phase !== 'idle' && !(phase === 'error' && finderSteps.length === 0 && !finder)
+  const approvalStatus: NodeStatus = approval
+    ? approval.run.status === 'succeeded'
+      ? 'done'
+      : 'error'
+    : verify
+      ? verify.humanReviewRequired
+        ? 'review'
+        : 'paused'
+      : 'waiting'
   const approvableNeeds = finder?.needs.filter((n) => n.candidates.length > 0 && !approvedNeeds.has(n.need)).map((n) => n.need) ?? []
 
   return (
     <div>
       {/* Input */}
-      <section className="border-b border-zinc-200 bg-white grid-paper">
+      <section className="border-b border-zinc-200/70">
         <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-10">
           <div className="max-w-3xl">
-            <p className="label-caps text-accent-700">PartPilot · CAD parts search</p>
-            <h1 className="mt-2 text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl">Describe it. Get the exact parts to import.</h1>
+            <p className="label-caps flex items-center gap-1.5 text-accent-700">
+              <Sparkles className="h-3.5 w-3.5" aria-hidden="true" /> PartPilot · CAD parts search
+            </p>
+            <h1 className="mt-2 text-2xl font-bold tracking-tight text-zinc-900 sm:text-[2.1rem] sm:leading-tight">
+              Describe it. Get the{' '}
+              <span className="bg-gradient-to-r from-accent-600 to-cyan-600 bg-clip-text text-transparent">exact parts</span> to import.
+            </h1>
             <p className="mt-2 text-sm text-zinc-600 sm:text-base">
               Two AI agents search the parts library, check every pick against the company CAD rulebook, and hand back verified part numbers — in seconds instead of minutes of browsing.
             </p>
@@ -307,7 +323,7 @@ export function FindPartsPage() {
                 rows={5}
                 maxLength={2000}
                 placeholder="e.g. 'Motor mount for a NEMA 17 stepper driving an 8 mm shaft with M3 bolts'"
-                className="mt-2 w-full resize-y rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-accent-600 focus:outline-none focus:ring-2 focus:ring-accent-200"
+                className="mt-2 w-full resize-y rounded-[10px] border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-500 transition-shadow duration-150 focus:border-accent-500 focus:outline-none focus:ring-4 focus:ring-accent-100"
               />
 
               <fieldset className="mt-3">
@@ -338,7 +354,7 @@ export function FindPartsPage() {
                       inputMode="numeric"
                       value={constraints.maxLoadN ?? ''}
                       onChange={(e) => setConstraints((c) => ({ ...c, maxLoadN: e.target.value ? Number(e.target.value) : undefined }))}
-                      className="w-20 rounded border border-zinc-300 px-2 py-1 font-mono text-xs focus:border-accent-600 focus:outline-none"
+                      className="w-20 rounded-md border border-zinc-200 bg-white px-2 py-1 font-mono text-xs focus:border-accent-500 focus:outline-none focus:ring-2 focus:ring-accent-100"
                       aria-label="Maximum load in newtons"
                     />
                     N
@@ -359,18 +375,18 @@ export function FindPartsPage() {
               <p className="text-sm font-semibold text-zinc-900">CAD screenshot (optional)</p>
               {preview ? (
                 <div className="relative mt-2 flex-1">
-                  <img src={preview} alt="Uploaded CAD screenshot preview" className="h-40 w-full rounded-md border border-zinc-200 bg-zinc-50 object-contain" />
+                  <img src={preview} alt="Uploaded CAD screenshot preview" className="h-40 w-full rounded-[10px] border border-zinc-200 bg-white object-contain" />
                   <button type="button" onClick={clearImage} className="btn-secondary absolute right-2 top-2 px-2 py-1 text-xs">
-                    Remove
+                    <X className="h-3.5 w-3.5" aria-hidden="true" /> Remove
                   </button>
                 </div>
               ) : (
                 <button
                   type="button"
                   onClick={() => fileInput.current?.click()}
-                  className="mt-2 flex h-40 flex-1 flex-col items-center justify-center rounded-md border-2 border-dashed border-zinc-300 bg-zinc-50 text-center text-sm text-zinc-600 hover:border-accent-500 hover:text-accent-700"
+                  className="mt-2 flex h-40 flex-1 flex-col items-center justify-center rounded-[10px] border-2 border-dashed border-accent-200 bg-accent-50/40 text-center text-sm text-zinc-600 transition-colors duration-150 grid-paper hover:border-accent-500 hover:text-accent-700"
                 >
-                  {imageBusy ? <Spinner className="h-5 w-5" /> : <span className="text-2xl" aria-hidden="true">⬚</span>}
+                  {imageBusy ? <Spinner className="h-6 w-6 text-accent-600" /> : <ImageUp className="h-7 w-7 text-accent-500" strokeWidth={1.6} aria-hidden="true" />}
                   <span className="mt-1 font-medium">Drop a screenshot or click to upload</span>
                   <span className="text-xs text-zinc-500">PNG, JPG or WebP · resized in your browser</span>
                 </button>
@@ -417,31 +433,32 @@ export function FindPartsPage() {
               )}
               <label className="flex items-center gap-2 text-xs text-zinc-600">
                 Approving as
-                <input value={approver} onChange={(e) => setApprover(e.target.value)} maxLength={80} className="w-40 rounded border border-zinc-300 px-2 py-1 text-xs focus:border-accent-600 focus:outline-none" />
+                <input value={approver} onChange={(e) => setApprover(e.target.value)} maxLength={80} className="w-40 rounded-md border border-zinc-200 bg-white px-2 py-1 text-xs focus:border-accent-500 focus:outline-none focus:ring-2 focus:ring-accent-100" />
               </label>
-              {demo && <span className="rounded bg-amber-100 px-2 py-1 text-xs font-semibold text-amber-900">Demo mode: pick an example</span>}
+              {demo && (
+                <span className="rounded-full border border-cyan-400/60 bg-cyan-50 px-2.5 py-1 font-mono text-[11px] font-semibold text-cyan-700">
+                  DEMO MODE: pick an example below, then press Find my parts
+                </span>
+              )}
             </div>
           </form>
 
           <div className="mt-6">
-            <p className="label-caps">Try an example (includes a sample screenshot)</p>
-            <div className="mt-2 grid gap-3 sm:grid-cols-3">
+            <p className="label-caps">Try an example (includes a labelled drawing)</p>
+            <div className="mt-2 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
               {EXAMPLES.map((ex) => (
-                <button
-                  key={ex.id}
-                  type="button"
-                  onClick={() => void loadExample(ex)}
-                  disabled={busy}
-                  className={`card flex items-start gap-3 p-3 text-left hover:border-accent-500 ${exampleId === ex.id ? 'border-accent-600 ring-2 ring-accent-200' : ''}`}
-                >
-                  <img src={ex.image} alt="" className="h-14 w-20 shrink-0 rounded border border-zinc-200 bg-zinc-100 object-cover" />
-                  <span>
-                    <span className="block text-sm font-semibold text-zinc-900">{ex.title}</span>
-                    <span className="line-clamp-2 block text-xs text-zinc-600">{ex.description}</span>
-                  </span>
-                </button>
+                <ExampleButton key={ex.id} ex={ex} active={exampleId === ex.id} disabled={busy} onClick={() => void loadExample(ex)} />
               ))}
             </div>
+            <details className="group mt-3">
+              <summary className="inline-flex cursor-pointer list-none items-center gap-1 rounded-md font-mono text-xs font-medium text-zinc-600 hover:text-accent-700 [&::-webkit-details-marker]:hidden">
+                <ChevronRight className="h-3.5 w-3.5 transition-transform duration-200 group-open:rotate-90" aria-hidden="true" />
+                More examples
+              </summary>
+              <div className="mt-2 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+                <ExampleButton ex={EDGE_EXAMPLE} active={exampleId === EDGE_EXAMPLE.id} disabled={busy} onClick={() => void loadExample(EDGE_EXAMPLE)} />
+              </div>
+            </details>
           </div>
         </div>
       </section>
@@ -449,7 +466,7 @@ export function FindPartsPage() {
       {/* Progress + results */}
       <div className="mx-auto max-w-7xl space-y-6 px-4 py-8 sm:px-6">
         {phase === 'idle' && (
-          <div className="rounded-lg border border-dashed border-zinc-300 px-6 py-10 text-center text-sm text-zinc-500">
+          <div className="rounded-[14px] border border-dashed border-accent-200 bg-white/60 px-6 py-10 text-center text-sm text-zinc-600">
             Results appear here. The Part Finder searches the library; the Fit Checker then verifies every pick before you import it.
           </div>
         )}
@@ -482,16 +499,22 @@ export function FindPartsPage() {
 
         {showRun && (
           <>
-            {runMode === 'demo' && <Banner tone="demo" title="Demo mode — this is a pre-recorded agent run, not a live AI call." />}
-            <div className="grid gap-4 lg:grid-cols-2">
-              <StepTrace title="1 · Part Finder agent" subtitle="Interprets the need, searches and ranks parts" steps={finderSteps} status={finderStatus} />
-              <StepTrace title="2 · Fit Checker agent" subtitle="Skeptical senior-engineer review against the rulebook" steps={verifySteps} status={verifyStatus} />
-            </div>
+            {runMode === 'demo' && <Banner tone="demo" title="DEMO — recorded replay. This is a pre-recorded agent run, not a live AI call." />}
+            <AgentPipeline
+              inputStatus="done"
+              finderStatus={finderStatus}
+              finderPaused={phase === 'question'}
+              verifyStatus={verifyStatus}
+              approvalStatus={approvalStatus}
+              finderSteps={finderSteps}
+              verifySteps={verifySteps}
+              demo={runMode === 'demo'}
+            />
           </>
         )}
 
         {phase === 'question' && finder?.clarifyingQuestion && (
-          <div className="card border-accent-300 p-5">
+          <div className="card border-cyan-400/60 p-5">
             <p className="label-caps text-accent-700">The Part Finder needs one detail</p>
             <p className="mt-1 text-base font-medium text-zinc-900">{finder.clarifyingQuestion}</p>
             <form onSubmit={answerQuestion} className="mt-3 flex flex-wrap gap-2">
@@ -502,7 +525,7 @@ export function FindPartsPage() {
                 id="answer"
                 value={answer}
                 onChange={(e) => setAnswer(e.target.value)}
-                className="min-w-0 flex-1 rounded-md border border-zinc-300 px-3 py-2 text-sm focus:border-accent-600 focus:outline-none focus:ring-2 focus:ring-accent-200"
+                className="min-w-0 flex-1 rounded-[10px] border border-zinc-200 bg-white px-3 py-2 text-sm focus:border-accent-500 focus:outline-none focus:ring-4 focus:ring-accent-100"
                 placeholder="e.g. 8 mm"
               />
               <button type="submit" className="btn-primary" disabled={!answer.trim()}>
@@ -540,7 +563,7 @@ export function FindPartsPage() {
             </div>
 
             {verify?.humanReviewRequired && (
-              <Banner tone="danger" title="⚑ Human review required before these parts are released">
+              <Banner tone="danger" title="Human review required before these parts are released">
                 <ul className="list-disc space-y-0.5 pl-5">
                   {verify.reasonsForReview.map((r, i) => (
                     <li key={i}>{r}</li>
@@ -561,7 +584,9 @@ export function FindPartsPage() {
 
             {finder.needs.length > 0 && verify && approvableNeeds.length > 0 && (
               <div className="flex flex-wrap items-center justify-between gap-3">
-                <h2 className="text-lg font-semibold">Verified parts ({finder.needs.length})</h2>
+                <h2 className="text-lg font-semibold text-zinc-900">
+                  Verified parts <span className="font-mono text-sm font-medium text-zinc-500">({finder.needs.length})</span>
+                </h2>
                 <button type="button" className="btn-primary" disabled={approving} onClick={() => void approve(approvableNeeds)}>
                   {approving ? <Spinner /> : null} Approve all & add to project
                 </button>
@@ -592,8 +617,11 @@ export function FindPartsPage() {
       {toast && (
         <div
           role="status"
-          className={`fixed bottom-4 right-4 z-50 max-w-sm rounded-lg px-4 py-3 text-sm font-medium shadow-lg ${toast.tone === 'ok' ? 'bg-zinc-900 text-white' : 'bg-red-700 text-white'}`}
+          className={`fixed bottom-4 right-4 z-50 flex max-w-sm animate-fade-in items-start gap-2 rounded-[12px] border bg-white/95 px-4 py-3 text-sm font-medium text-zinc-900 shadow-[var(--shadow-lift)] backdrop-blur ${
+            toast.tone === 'ok' ? 'border-emerald-300' : 'border-red-300'
+          }`}
         >
+          {toast.tone === 'ok' ? <CircleCheck className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" aria-hidden="true" /> : <UserRound className="mt-0.5 h-4 w-4 shrink-0 text-red-600" aria-hidden="true" />}
           {toast.text}
         </div>
       )}
@@ -611,7 +639,7 @@ function Chip({ active, onClick, children }: { active: boolean; onClick: () => v
       type="button"
       aria-pressed={active}
       onClick={onClick}
-      className={`rounded-full border px-3 py-1 text-xs font-medium capitalize ${active ? 'border-accent-600 bg-accent-600 text-white' : 'border-zinc-300 bg-white text-zinc-700 hover:border-zinc-400'}`}
+      className={`rounded-full border px-3 py-1 text-xs font-medium capitalize transition-colors duration-150 ${active ? 'border-accent-600 bg-accent-600 text-white' : 'border-zinc-200 bg-white text-zinc-700 hover:border-accent-300 hover:text-accent-800'}`}
     >
       {children}
     </button>
@@ -622,33 +650,20 @@ function ApprovalPanel({ data }: { data: ApprovalResponse }) {
   return (
     <section className="card p-5" aria-label="Approval pipeline result">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <h2 className="text-base font-semibold">Approval pipeline {data.run.status === 'succeeded' ? 'completed' : 'failed'}</h2>
-        <Link to="/bom" className="text-sm font-medium text-accent-700 hover:underline">
-          View project BOM ({data.bomLineCount} lines) →
+        <h2 className="text-base font-semibold text-zinc-900">Approval pipeline {data.run.status === 'succeeded' ? 'completed' : 'failed'}</h2>
+        <Link to="/bom" className="inline-flex items-center gap-1 text-sm font-medium text-accent-700 hover:underline">
+          View project BOM ({data.bomLineCount} lines) <ChevronRight className="h-4 w-4" aria-hidden="true" />
         </Link>
       </div>
-      <ol className="mt-3 space-y-1.5">
-        {data.run.steps.map((s, i) => (
-          <li key={i} className="flex items-start gap-2 text-sm">
-            <span className={s.status === 'done' ? 'text-emerald-700' : 'text-red-700'} aria-hidden="true">
-              {s.status === 'done' ? '✓' : '✕'}
-            </span>
-            <span>
-              <span className="font-medium">{s.name}</span>
-              {s.detail && <span className="text-zinc-600"> — {s.detail}</span>}
-              <span className="ml-2 font-mono text-[11px] text-zinc-400">{new Date(s.at).toLocaleTimeString()}</span>
-            </span>
-          </li>
-        ))}
-      </ol>
+      <RunStepper steps={data.run.steps} />
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <div>
           <p className="label-caps">Import package</p>
           <ul className="mt-1.5 space-y-1">
             {data.package.files.map((f) => (
               <li key={f.url}>
-                <a href={f.url} className="font-mono text-sm text-accent-700 hover:underline" download={f.filename}>
-                  ⤓ {f.filename}
+                <a href={f.url} className="inline-flex items-center gap-1.5 font-mono text-sm text-accent-700 hover:underline" download={f.filename}>
+                  <Download className="h-3.5 w-3.5" aria-hidden="true" /> {f.filename}
                 </a>
               </li>
             ))}
@@ -659,8 +674,8 @@ function ApprovalPanel({ data }: { data: ApprovalResponse }) {
           <ul className="mt-1.5 space-y-1">
             {data.package.links.map((l) => (
               <li key={l.url} className="text-sm">
-                <a href={l.url} target="_blank" rel="noreferrer noopener" className="font-mono text-accent-700 hover:underline">
-                  {l.partNumber}
+                <a href={l.url} target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-1 font-mono text-accent-700 hover:underline">
+                  {l.partNumber} <ExternalLink className="h-3 w-3" aria-hidden="true" />
                 </a>
                 <span className="ml-2 font-mono text-xs text-zinc-500">{l.formats.join(' · ')}</span>
               </li>
@@ -669,5 +684,29 @@ function ApprovalPanel({ data }: { data: ApprovalResponse }) {
         </div>
       </div>
     </section>
+  )
+}
+
+function ExampleButton({ ex, active, disabled, onClick }: { ex: ExamplePrompt; active: boolean; disabled: boolean; onClick: () => void }) {
+  const edge = ex.kind === 'edge'
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={disabled}
+      aria-pressed={active}
+      className={`card flex items-start gap-3 p-3 text-left disabled:cursor-not-allowed disabled:opacity-60 ${
+        active ? 'border-accent-500 ring-4 ring-accent-100' : edge ? 'hover:border-red-300' : 'hover:border-accent-300'
+      }`}
+    >
+      <img src={ex.image} alt="" className="h-16 w-20 shrink-0 rounded-md border border-zinc-200 bg-white object-cover" />
+      <span className="min-w-0">
+        <span className="flex items-center gap-1.5 text-sm font-semibold text-zinc-900">
+          {edge && <FlaskConical className="h-3.5 w-3.5 shrink-0 text-red-600" aria-hidden="true" />}
+          {ex.title}
+        </span>
+        <span className="mt-0.5 block font-mono text-[11px] leading-snug text-zinc-600">{ex.summary}</span>
+      </span>
+    </button>
   )
 }
